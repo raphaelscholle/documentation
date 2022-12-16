@@ -10,8 +10,8 @@ test:
   script:
   - yarn install
   - yarn build
-  - mv ./build ../public
-  - scp -r ../public docs@192.168.2.14:/tank/docs
+  - ssh docs@192.168.2.14 rm -rf /tank/docs/build
+  - scp -r build docs@192.168.2.14:/tank/docs/
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
