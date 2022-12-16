@@ -12,9 +12,6 @@ test:
   - yarn build
   - mv ./build ../public
   - scp -r ../public docs@192.168.2.14:/tank/docs
-  artifacts:
-    paths:
-    - public
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
 
@@ -24,8 +21,5 @@ pages:
   - yarn install
   - yarn build
   - mv ./build ../public
-  artifacts:
-    paths:
-    - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
