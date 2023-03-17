@@ -5,14 +5,14 @@ sidebar_position: 1
 
 # Radxa
 
-- RADXA®发音读作[reksə]。这个名字来源于拉丁单词radix，意思是root。RADXA®是深圳市瑞莎科技的注册商标。
+- RADXA® is pronounced as [reksə]. The name is derived from the Latin word radix, meaning root.RADXA® is a registered trademark of Shenzhen Rexa Technology.
 
-- Radxa是创立于2013年的创业公司，致力于设计，生产和销售开源硬件产品，传播知识，推广开源文化。瑞莎科技同时提供定制，原型设计，软硬件集成等服务。欢迎联系我们。
+- Radxa is a startup founded in 2013, dedicated to designing, producing and selling open source hardware products, spreading knowledge and promoting open source culture. Radxa Technology also provides customization, prototyping, hardware and software integration services. Welcome to contact us.
 
-- 邮箱: dev@radxa.com
+- email: dev@radxa.com
 
-# 技术支持
+# Support
 
-如需支持，请参阅 [Radxa Wiki](https://wiki.radxa.com/) 网站的硬件文档部分，并将问题发布到 [Radxa 论坛](https://forum.radxa.com/)。对于用户有个人DIY设计的，我们非常支持发布到[Radxa 论坛](https://forum.radxa.com/)，感谢对Radxa的支持。
+For support, please refer to the hardware documentation section of the [Radxa Wiki](https://wiki.radxa.com/) website and post questions to the [Radxa Forum](https://forum.radxa.com/). For users with personal DIY designs, we strongly support posting to [Radxa Forum](https://forum.radxa.com/), thanks for your support to Radxa.
 
 ![radxa_logo](../static/img/radxa_green_1385x400.png)
