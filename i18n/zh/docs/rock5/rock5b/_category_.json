@@ -1,0 +1,8 @@
+{
+  "label": "ROCK 5B",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "ROCK 5B是一款布局紧凑的8K高性能单板计算机 (SBC)"
+  }
+}
