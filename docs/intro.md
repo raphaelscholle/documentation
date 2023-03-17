@@ -1,47 +1,18 @@
 ---
+sidebar_label: 'Radxa'
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Radxa
 
-Let's discover **Docusaurus in less than 5 minutes**.
+- RADXA®发音读作[reksə]。这个名字来源于拉丁单词radix，意思是root。RADXA®是深圳市瑞莎科技的注册商标。
 
-## Getting Started
+- Radxa是创立于2013年的创业公司，致力于设计，生产和销售开源硬件产品，传播知识，推广开源文化。瑞莎科技同时提供定制，原型设计，软硬件集成等服务。欢迎联系我们。
 
-Get started by **creating a new site**.
+- 邮箱: dev@radxa.com
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+# 技术支持
 
-### What you'll need
+如需支持，请参阅 [Radxa Wiki](https://wiki.radxa.com/) 网站的硬件文档部分，并将问题发布到 [Radxa 论坛](https://forum.radxa.com/)。对于用户有个人DIY设计的，我们非常支持发布到[Radxa 论坛](https://forum.radxa.com/)，感谢对Radxa的支持。
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+![radxa_logo](../static/img/radxa_green_1385x400.png)
