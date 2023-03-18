@@ -20,7 +20,7 @@ sidebar_position: 4
 
 - **问：没有eMMC和TF卡，ROCK 5B可以从PCIe M.2 NVME SSD启动吗？**
 
-	* 是的。 ROCK 5B 可以从 PCIe M.2 NVME SSD 启动。ROCK 5B 配备一个 16MB SPI Nor Flash 和 PCIe M.2 M-Key 连接器。SPI Nor Flash 存储 bootloader。 NVME SSD 存储整个系统映像（至少内核和 rootfs）。[SPI Nor Flash and PCIe NVME SSD boot](./advanced/spi-nvme-boot)
+	* 是的。 ROCK 5B 可以从 PCIe M.2 NVME SSD 启动。ROCK 5B 配备一个 16MB SPI Nor Flash 和 PCIe M.2 M-Key 连接器。SPI Nor Flash 存储 bootloader。 NVME SSD 存储整个系统映像（至少内核和 rootfs）。[SPI Nor Flash and PCIe NVME SSD boot](./advanced/install_images_nvme)
 
 - **问：另外，散热器和风扇是否包含在价格中？**
 	
