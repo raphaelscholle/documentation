@@ -1,0 +1,94 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.ROCK5系列": {
+    "message": "ROCK5系列",
+    "description": "The label for category ROCK5系列 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ROCK5系列.link.generated-index.description": {
+    "message": "Radxa ROCK5系列产品",
+    "description": "The generated-index page description for category ROCK5系列 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ROCK 5B": {
+    "message": "ROCK 5B",
+    "description": "The label for category ROCK 5B in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ROCK 5B.link.generated-index.description": {
+    "message": "ROCK 5B是一款布局紧凑的8K高性能单板计算机 (SBC)",
+    "description": "The generated-index page description for category ROCK 5B in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.基础使用教程": {
+    "message": "基础使用教程",
+    "description": "The label for category 基础使用教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.基础使用教程.link.generated-index.description": {
+    "message": "ROCK5B 基础使用教程",
+    "description": "The generated-index page description for category 基础使用教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.进阶使用教程": {
+    "message": "进阶使用教程",
+    "description": "The label for category 进阶使用教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.进阶使用教程.link.generated-index.description": {
+    "message": "ROCK5B进阶使用教程",
+    "description": "The generated-index page description for category 进阶使用教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.配件使用教程": {
+    "message": "配件使用教程",
+    "description": "The label for category 配件使用教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.配件使用教程.link.generated-index.description": {
+    "message": "ROCK5B配件使用教程",
+    "description": "The generated-index page description for category 配件使用教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.应用安装教程": {
+    "message": "应用安装教程",
+    "description": "The label for category 应用安装教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.应用安装教程.link.generated-index.description": {
+    "message": "ROCK5B应用使用教程",
+    "description": "The generated-index page description for category 应用安装教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.系统开发教程": {
+    "message": "系统开发教程",
+    "description": "The label for category 系统开发教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.系统开发教程.link.generated-index.description": {
+    "message": "ROCK5B系统开发",
+    "description": "The generated-index page description for category 系统开发教程 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.应用案例介绍": {
+    "message": "应用案例介绍",
+    "description": "The label for category 应用案例介绍 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.应用案例介绍.link.generated-index.description": {
+    "message": "ROCK5B应用使用教程",
+    "description": "The generated-index page description for category 应用案例介绍 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.硬件资料": {
+    "message": "硬件资料",
+    "description": "The label for category 硬件资料 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.硬件资料.link.generated-index.description": {
+    "message": "ROCK5B应用使用教程",
+    "description": "The generated-index page description for category 硬件资料 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.其他资源": {
+    "message": "其他资源",
+    "description": "The label for category 其他资源 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.其他资源.link.generated-index.description": {
+    "message": "ROCK5B应用使用教程",
+    "description": "The generated-index page description for category 其他资源 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Radxa配件系列": {
+    "message": "Radxa配件系列",
+    "description": "The label for category Radxa配件系列 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Radxa配件系列.link.generated-index.description": {
+    "message": "Radxa 配件使用教程",
+    "description": "The generated-index page description for category Radxa配件系列 in sidebar tutorialSidebar"
+  }
+}
