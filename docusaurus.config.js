@@ -57,7 +57,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css'), require.resolve('./src/css/footer.css')],
         },
       }),
     ],
@@ -66,75 +66,154 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
       navbar: {
-        title: 'My Site',
+        hideOnScroll: true,
+        title: '',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Radxa',
+          src: 'Logo.svg',
+          width: 60,
+          height: 18
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
           {
             type: 'localeDropdown',
             position: 'right',
           },
-        ],
+          {
+            position: 'left',
+            label: 'Home',
+            to: 'http://www.radxa.com/'
+          },
+          {
+            position: 'left',
+            label: 'News',
+            to: 'http://www.radxa.com/news'
+          },
+          {
+            position: 'left',
+            label: 'About',
+            to: 'http://www.radxa.com/about'
+          },
+          {
+            position: 'left',
+            label: 'Products',
+            to: 'http://www.radxa.com/product'
+          },
+          {
+            position: 'left',
+            label: 'Support',
+            to: 'http://www.radxa.com/docSearch '
+          },
+          {
+            position: 'left',
+            label: 'Community',
+            to: 'http://www.radxa.com/association'
+          },]
       },
       footer: {
         style: 'dark',
         links: [
+
           {
-            title: 'Docs',
+            title: 'Radxa',
             items: [
               {
-                label: 'Tutorial',
-                to: '/intro',
+                label: '首页',
+                to: 'http://www.radxa.com/',
+              },
+              {
+                label: '新闻',
+                to: 'http://www.radxa.com/news',
+              },
+              {
+                label: '关于我们',
+                to: 'http://www.radxa.com/about',
+              },
+              {
+                label: '产品',
+                to: 'http://www.radxa.com/product',
+              },
+              {
+                label: '支持',
+                to: 'http://www.radxa.com/sustain',
+              },
+              {
+                label: '社区',
+                to: 'http://www.radxa.com/association',
+              },
+              // {
+              //   label: '人才招聘',
+              //   to: '/ability',
+              // },
+            ],
+          },
+          {
+            title: '其他站点',
+            items: [
+              {
+                label: 'Wiki',
+                href: 'https://wiki.radxa.com/',
+              },
+              {
+                label: 'Forum',
+                href: 'https://forum.radxa.com/',
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/radxa',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '关于',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '关于我们',
+                to: 'http://www.radxa.com/about',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '联系我们',
+                to: 'http://www.radxa.com/about?contact_us',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                html: `
+                   <div class='footer_box'>
+                    <div class='footer_center'>
+                        <div class='log'></div>
+                        <div class='iconBox'>
+                          <div class='men'>关注我们</div>
+                          <ul>
+                            <li>
+                              <a class='a_on1 iconpg' href='https://github.com/radxa'></a>
+                            </li>
+                            <li>
+                              <a class='a_on2 iconpg' href='https://discord.com/invite/mn73YNWdHY'></a>
+                            </li>
+                            <li>
+                              <a class='a_on3 iconpg' href='https://t.me/rockpi4'></a>
+                            </li>
+                            <li class='a_on4_li'>
+                              <div class='a_on4 iconpg'></div>
+                              <div class='vxMa'></div>
+                            </li>
+                            <li class='a_on5_li'>
+                              <div class='a_on5 iconpg'></div>
+                              <div class='qqMa'></div>
+                            </li>
+                          </ul>
+                        </div>
+                    </div>
+                   </div>
+                  `,
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
