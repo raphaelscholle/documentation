@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Radxa Docs',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Documentations for Radxa products',
   url: 'https://docs.radxa.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -72,7 +72,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        title: '',
+        title: 'Radxa Documentation',
         logo: {
           alt: 'Radxa',
           src: 'Logo.svg',
@@ -81,38 +81,42 @@ const config = {
         },
         items: [
           {
-            type: 'localeDropdown',
-            position: 'right',
+            type: 'doc',
+            docId: 'intro',
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'Home',
             to: 'http://www.radxa.com/'
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'News',
             to: 'http://www.radxa.com/news'
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'About',
             to: 'http://www.radxa.com/about'
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'Products',
             to: 'http://www.radxa.com/product'
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'Support',
             to: 'http://www.radxa.com/docSearch '
           },
           {
-            position: 'left',
+            position: 'right',
             label: 'Community',
             to: 'http://www.radxa.com/association'
+          },
+          {
+            type: 'localeDropdown',
+            position: 'right',
           },]
       },
       footer: {
@@ -123,37 +127,37 @@ const config = {
             title: 'Radxa',
             items: [
               {
-                label: '首页',
+                label: 'Home',
                 to: 'http://www.radxa.com/',
               },
               {
-                label: '新闻',
+                label: 'News',
                 to: 'http://www.radxa.com/news',
               },
               {
-                label: '关于我们',
+                label: 'About',
                 to: 'http://www.radxa.com/about',
               },
               {
-                label: '产品',
+                label: 'Products',
                 to: 'http://www.radxa.com/product',
               },
               {
-                label: '支持',
+                label: 'Support',
                 to: 'http://www.radxa.com/sustain',
               },
               {
-                label: '社区',
+                label: 'Community',
                 to: 'http://www.radxa.com/association',
               },
               // {
-              //   label: '人才招聘',
+              //   label: 'Join Radxa',
               //   to: '/ability',
               // },
             ],
           },
           {
-            title: '其他站点',
+            title: 'Support',
             items: [
               {
                 label: 'Wiki',
@@ -170,14 +174,14 @@ const config = {
             ],
           },
           {
-            title: '关于',
+            title: 'About',
             items: [
               {
-                label: '关于我们',
+                label: 'About Radxa',
                 to: 'http://www.radxa.com/about',
               },
               {
-                label: '联系我们',
+                label: 'Contact Radxa',
                 to: 'http://www.radxa.com/about?contact_us',
               },
               {
@@ -186,7 +190,7 @@ const config = {
                     <div class='footer_center'>
                         <div class='log'></div>
                         <div class='iconBox'>
-                          <div class='men'>Follow Us</div>
+                          <div class='men'>Follow us</div>
                           <ul>
                             <li>
                               <a class='a_on1 iconpg' href='https://github.com/radxa'></a>
