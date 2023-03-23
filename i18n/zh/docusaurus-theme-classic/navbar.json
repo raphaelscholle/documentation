@@ -1,18 +1,30 @@
 {
   "title": {
-    "message": "My Site",
+    "message": "瑞莎文档",
     "description": "The title in the navbar"
   },
-  "item.label.Docs": {
-    "message": "Docs",
-    "description": "Navbar item with label Docs"
+  "item.label.Home": {
+    "message": "主页",
+    "description": "Navbar item with label Home"
   },
-  "item.label.Blog": {
-    "message": "Blog",
-    "description": "Navbar item with label Blog"
+  "item.label.News": {
+    "message": "新闻",
+    "description": "Navbar item with label News"
   },
-  "item.label.GitHub": {
-    "message": "GitHub",
-    "description": "Navbar item with label GitHub"
+  "item.label.About": {
+    "message": "关于",
+    "description": "Navbar item with label About"
+  },
+  "item.label.Products": {
+    "message": "产品",
+    "description": "Navbar item with label Products"
+  },
+  "item.label.Support": {
+    "message": "支持",
+    "description": "Navbar item with label Support"
+  },
+  "item.label.Community": {
+    "message": "社区",
+    "description": "Navbar item with label Community"
   }
 }

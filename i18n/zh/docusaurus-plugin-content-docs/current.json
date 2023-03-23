@@ -1,55 +1,79 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "当前版本",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.ROCK5系列": {
-    "message": "ROCK5系列",
-    "description": "The label for category ROCK5系列 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.ROCK 5 Family": {
+    "message": "ROCK 5 系列",
+    "description": "The label for category ROCK 5 Family in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.ROCK5系列.link.generated-index.description": {
-    "message": "Radxa ROCK5系列产品",
-    "description": "The generated-index page description for category ROCK5系列 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.ROCK 5 Family.link.generated-index.description": {
+    "message": "ROCK 5 系列是基于最新的瑞芯微 RK3588 和 RK3588S 芯片的单板机和计算模块，支持 8K 显示和 6T AI 算力.",
+    "description": "The generated-index page description for category ROCK 5 Family in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ROCK 5B": {
     "message": "ROCK 5B",
     "description": "The label for category ROCK 5B in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.ROCK 5B.link.generated-index.description": {
-    "message": "ROCK 5B是一款布局紧凑的8K高性能单板计算机 (SBC)",
+    "message": "ROCK 5B是一款强大的支持 4 屏异显的 2.5 寸单板机",
     "description": "The generated-index page description for category ROCK 5B in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.基础使用教程": {
-    "message": "基础使用教程",
-    "description": "The label for category 基础使用教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Using ROCK 5B": {
+    "message": "上手教程",
+    "description": "The label for category Using ROCK 5B in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.基础使用教程.link.generated-index.description": {
-    "message": "ROCK5B 基础使用教程",
-    "description": "The generated-index page description for category 基础使用教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Using ROCK 5B.link.generated-index.description": {
+    "message": "从这里开始上手，一起摇滚吧。",
+    "description": "The generated-index page description for category Using ROCK 5B in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.进阶使用教程": {
-    "message": "进阶使用教程",
-    "description": "The label for category 进阶使用教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Accessories": {
+    "message": "配件使用",
+    "description": "The label for category Accessories in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.进阶使用教程.link.generated-index.description": {
-    "message": "ROCK5B进阶使用教程",
-    "description": "The generated-index page description for category 进阶使用教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Accessories.link.generated-index.description": {
+    "message": "ROCK 5B 适配的配件使用指南",
+    "description": "The generated-index page description for category Accessories in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pro User Guide": {
+    "message": "进阶使用",
+    "description": "The label for category Pro User Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Pro User Guide.link.generated-index.description": {
+    "message": "ROCK 5B 进阶使用指南",
+    "description": "The generated-index page description for category Pro User Guide in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Application Development": {
+    "message": "应用开发",
+    "description": "The label for category Application Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Application Development.link.generated-index.description": {
+    "message": "ROCK5B 应用开发教程",
+    "description": "The generated-index page description for category Application Development in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hardware Resource": {
+    "message": "硬件资料",
+    "description": "The label for category Hardware Resource in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hardware Resource.link.generated-index.description": {
+    "message": "ROCK 5B 硬件资料",
+    "description": "The generated-index page description for category Hardware Resource in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Other Resource": {
+    "message": "其他资料",
+    "description": "The label for category Other Resource in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Other Resource.link.generated-index.description": {
+    "message": "ROCK 5B 其他资料",
+    "description": "The generated-index page description for category Other Resource in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.配件使用教程": {
     "message": "配件使用教程",
     "description": "The label for category 配件使用教程 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.配件使用教程.link.generated-index.description": {
-    "message": "ROCK5B配件使用教程",
+    "message": "ROCK5B 配件使用教程",
     "description": "The generated-index page description for category 配件使用教程 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.应用安装教程": {
-    "message": "应用安装教程",
-    "description": "The label for category 应用安装教程 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.应用安装教程.link.generated-index.description": {
-    "message": "ROCK5B应用使用教程",
-    "description": "The generated-index page description for category 应用安装教程 in sidebar tutorialSidebar"
   },
   "sidebar.tutorialSidebar.category.系统开发教程": {
     "message": "系统开发教程",
@@ -66,29 +90,5 @@
   "sidebar.tutorialSidebar.category.应用案例介绍.link.generated-index.description": {
     "message": "ROCK5B应用使用教程",
     "description": "The generated-index page description for category 应用案例介绍 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.硬件资料": {
-    "message": "硬件资料",
-    "description": "The label for category 硬件资料 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.硬件资料.link.generated-index.description": {
-    "message": "ROCK5B应用使用教程",
-    "description": "The generated-index page description for category 硬件资料 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.其他资源": {
-    "message": "其他资源",
-    "description": "The label for category 其他资源 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.其他资源.link.generated-index.description": {
-    "message": "ROCK5B应用使用教程",
-    "description": "The generated-index page description for category 其他资源 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Radxa配件系列": {
-    "message": "Radxa配件系列",
-    "description": "The label for category Radxa配件系列 in sidebar tutorialSidebar"
-  },
-  "sidebar.tutorialSidebar.category.Radxa配件系列.link.generated-index.description": {
-    "message": "Radxa 配件使用教程",
-    "description": "The generated-index page description for category Radxa配件系列 in sidebar tutorialSidebar"
   }
 }
