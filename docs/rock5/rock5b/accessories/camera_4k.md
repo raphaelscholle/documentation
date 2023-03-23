@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Camera 4K使用教程'
+sidebar_label: 'Radxa Camera 4K User Guide'
 sidebar_position: 4
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'ROCK5B GPIO'
+sidebar_label: 'ROCK 5B GPIO'
 sidebar_position: 5
 ---
 

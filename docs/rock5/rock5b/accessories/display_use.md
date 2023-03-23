@@ -1,5 +1,5 @@
 ---
-sidebar_label: '8/10寸显示屏使用教程'
+sidebar_label: 'Radxa Display 8/10 User Guide'
 sidebar_position: 3
 ---
 

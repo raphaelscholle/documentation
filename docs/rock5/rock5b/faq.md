@@ -1,5 +1,5 @@
 ---
-sidebar_label: '相关问题FAQ'
+sidebar_label: 'FAQs'
 sidebar_position: 4
 ---
 

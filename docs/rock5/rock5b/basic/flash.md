@@ -1,5 +1,5 @@
 ---
-sidebar_label: '烧录方式选择'
+sidebar_label: 'Image Flash Guide'
 sidebar_position: 2
 ---
 

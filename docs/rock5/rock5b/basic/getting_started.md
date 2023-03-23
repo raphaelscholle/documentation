@@ -1,5 +1,5 @@
 ---
-sidebar_label: '入门介绍'
+sidebar_label: 'Getting started'
 sidebar_position: 1
 ---
 
@@ -127,7 +127,7 @@ root@rock-5b:/home/rock#
 
 #### 串口访问
 
-- [串口访问](./usb_ttl_cable)
+- [串口访问](./serial_console)
 
 #### SSH访问
 

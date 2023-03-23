@@ -1,5 +1,5 @@
 ---
-sidebar_label: '安装镜像到M.2 NVME SSD'
+sidebar_label: 'Install images to M.2 NVMe SSD'
 sidebar_position: 2
 ---
 

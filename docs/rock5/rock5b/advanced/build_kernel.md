@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5B 构建Kernel'
+sidebar_label: 'Build Linux Kernel for ROCK 5B'
 sidebar_position: 6
 ---
 

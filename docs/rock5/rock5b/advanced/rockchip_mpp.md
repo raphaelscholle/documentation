@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RockChip MPP'
+sidebar_label: 'RockChip MPP Multimedia Guide'
 sidebar_position: 9
 ---
 

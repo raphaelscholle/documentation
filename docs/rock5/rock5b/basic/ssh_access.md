@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'SSH访问教程'
+sidebar_label: 'Remote access'
 sidebar_position: 3
 ---
 

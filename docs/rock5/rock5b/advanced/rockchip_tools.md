@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RockChip工具使用'
+sidebar_label: 'RockChip Flashing Tools User Guide'
 sidebar_position: 10
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_label: '从 debos-radxa 构建 Debian'
+sidebar_label: 'Build Debian with debos-radxa'
 sidebar_position: 8
 ---
 

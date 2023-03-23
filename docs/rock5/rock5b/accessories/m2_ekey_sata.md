@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'M.2 to SATA使用'
+sidebar_label: 'M.2 to SATA adapter board User Guide'
 sidebar_position: 5
 ---
 

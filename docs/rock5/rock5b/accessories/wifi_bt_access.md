@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'WIFI&BT使用教程'
+sidebar_label: 'WIFI & BT User Guide'
 sidebar_position: 2
 ---
 

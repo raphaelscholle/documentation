@@ -1,5 +1,5 @@
 ---
-sidebar_label: '模块支持列表'
+sidebar_label: 'Support List'
 sidebar_position: 1
 ---
 

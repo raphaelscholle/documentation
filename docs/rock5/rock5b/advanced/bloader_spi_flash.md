@@ -1,5 +1,5 @@
 ---
-sidebar_label: '烧录bootloader到SPI Flash'
+sidebar_label: 'Flash Bootloader to SPI Flash'
 sidebar_position: 1
 ---
 

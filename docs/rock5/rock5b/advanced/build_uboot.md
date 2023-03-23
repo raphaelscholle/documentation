@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5B 构建U-Boot'
+sidebar_label: 'Build U-boot for ROCK 5B'
 sidebar_position: 7
 ---
 
