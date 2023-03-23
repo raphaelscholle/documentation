@@ -1,10 +1,12 @@
 ---
-sidebar_label: '烧录bootloader到SPI Flash'
+sidebar_label: '烧录 bootloader 到 SPI Flash'
 sidebar_position: 1
 ---
 
 
-# 烧录bootloader到SPI Nor Flash
+# 烧录bootloader 到 SPI Nor Flash
+
+
 
 SPI Nor Flash 存储bootloader文件。 像 idbloader.img 和 u-boot.itb。
 而PCIe NVME SSD 存储所有system img。

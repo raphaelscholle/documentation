@@ -4,7 +4,7 @@ sidebar_position: 2
 ---
 
 
-# WIFI&BT使用教程
+# WIFI & BT 使用教程
 
 - ROCK 5B 不配备板载 WiFi/BT模块，需要外接模块。测试并支持的[WIFI/BT卡](../accessories/support_accessories)
 - 该处示范的M.2无线模块为: Radxa Wireless Module A8
@@ -12,24 +12,24 @@ sidebar_position: 2
 - 安装如图所示：
 ![Radxa Wireless Module A8](/zh/img/accessories/a8-module-02.png)
 
-## WIFI使用
+## WIFI 使用
 
 1. 先进入到ROOT用户模式
 ```
 sudo su
 ```
 
-2. 打开WIFI
+2. 打开 WIFI
 ```
 nmcli r wifi on
 ```
 
-3. 扫描WIFI
+3. 扫描 WIFI
 ```
 nmcli dev wifi
 ```
 
-4. 连接WIFI网络
+4. 连接 WIFI 网络
 ```
 nmcli dev wifi connect "wifi_name" password "wifi_password"
 ```

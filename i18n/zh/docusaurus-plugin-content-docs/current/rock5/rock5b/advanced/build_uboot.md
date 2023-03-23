@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5B 构建U-Boot'
+sidebar_label: '在ROCK 5B 构建 U-Boot'
 sidebar_position: 7
 ---
 

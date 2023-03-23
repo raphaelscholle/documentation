@@ -1,5 +1,5 @@
 ---
-sidebar_label: '在ROCK 5B 构建Kernel'
+sidebar_label: '在ROCK 5B 构建 Kernel'
 sidebar_position: 6
 ---
 

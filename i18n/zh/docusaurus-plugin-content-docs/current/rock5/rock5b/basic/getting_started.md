@@ -3,11 +3,11 @@ sidebar_label: '入门介绍'
 sidebar_position: 1
 ---
 
-# ROCK5B 入门
+# ROCK 5B 入门
 
 ## 入门准备
 
-- ROCK5B 主板
+- ROCK 5B 主板
 
 - 以下大容量存储卡之一：
 	* microSD， 大于 8GB
@@ -23,11 +23,11 @@ sidebar_position: 1
 - USB 键盘和鼠标
 	* ROCK 5B 配备四个 USB-A 接口，可配备全尺寸键盘和鼠标。
 
-- 显示器 和 HDMI线
+- 显示器和 HDMI 线
 	* ROCK 5B 配备全尺寸 HDMI 接口。 建议使用支持 HDMI 的显示器。
 	* HDMI EDID用于确定最佳显示分辨率。 在支持 1080p（或 4K/8K）的显示器和电视上，将选择此分辨率。 如果不支持 1080p，EDID会找到的下一个可用分辨率。 此选定模式适用于大多数显示器/电视，但不适用于所有显示器/电视。
 
-- USB 转 TTL串口线
+- USB 转 TTL 串口线
 	* ROCK 5B 为 CPU 输出一个专用串行控制台，可以访问低级调试消息。
 	* 推荐使用Radxa USB to TTL Cable ![USB to TTL Cable](/img/accessories/usb-ttl.png).
 
@@ -127,7 +127,7 @@ root@rock-5b:/home/rock#
 
 #### 串口访问
 
-- [串口访问](./usb_ttl_cable)
+- [串口访问](./serial_console)
 
 #### SSH访问
 

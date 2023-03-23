@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'RockChip工具使用'
+sidebar_label: 'RockChip 工具使用'
 sidebar_position: 10
 ---
 
