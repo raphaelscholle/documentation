@@ -186,7 +186,7 @@ const config = {
                     <div class='footer_center'>
                         <div class='log'></div>
                         <div class='iconBox'>
-                          <div class='men'>关注我们</div>
+                          <div class='men'>Follow Us</div>
                           <ul>
                             <li>
                               <a class='a_on1 iconpg' href='https://github.com/radxa'></a>
