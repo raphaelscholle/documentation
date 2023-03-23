@@ -1,18 +1,27 @@
 ---
-sidebar_label: 'Radxa'
+sidebar_label: '关于本文档'
 sidebar_position: 1
 ---
 
-# Radxa
+# 关于
 
-- RADXA®发音读作[reksə]。这个名字来源于拉丁单词radix，意思是root。RADXA®是深圳市瑞莎科技的注册商标。
+瑞莎文档是由瑞莎团队和社区共同维护的用于支持瑞莎的单板机及其周边产品的教程和指南。
 
-- Radxa是创立于2013年的创业公司，致力于设计，生产和销售开源硬件产品，传播知识，推广开源文化。瑞莎科技同时提供定制，原型设计，软硬件集成等服务。欢迎联系我们。
+# 遇到问题
 
-- 邮箱: dev@radxa.com
+在使用本文档的过程中，如果遇到相关问题，请通过 Github 提交 issue，我们会第一时间回复。
 
-# 技术支持
+# 加入社区
 
-如需支持，请参阅 [Radxa Wiki](https://wiki.radxa.com/) 网站的硬件文档部分，并将问题发布到 [Radxa 论坛](https://forum.radxa.com/)。对于用户有个人DIY设计的，我们非常支持发布到[Radxa 论坛](https://forum.radxa.com/)，感谢对Radxa的支持。
+* 官方论坛: [Radxa Wiki](http://forum.radxa.com) - 主要技术支持渠道，中英文都支持，中文发帖需要发到中文板块。
+* Discord社群: [Radxa Discord](https://rock.sh/go) - 英文实时讨论群
+* QQ群: 591048098 - 中文讨论 QQ 群
+* 微信群: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png) 中文讨论微信群
 
-![radxa_logo](/zh/img/radxa_green_1385x400.png)
+注意:
+
+我们不推荐在封闭的软件如(微信群 / QQ群等不能被搜索引擎抓取内容的APP)讨论技术问题或者寻求帮助，技术讨论尽量在开放的场所如官方论坛或者 Github  issue 进行。微信 / QQ群的主要用途是社交和快速找到志趣相投的小伙伴。
+
+# 贡献力量
+
+我们热烈欢迎大家给瑞莎文档反馈问题，贡献补丁，增加内容，展示创作。
