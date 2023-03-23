@@ -1,5 +1,5 @@
 ---
-sidebar_label: '串口设置教程'
+sidebar_label: 'Setting up serial console'
 sidebar_position: 4
 ---
 

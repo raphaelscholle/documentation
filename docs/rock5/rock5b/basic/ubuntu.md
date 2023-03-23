@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Ubuntu系统使用'
+sidebar_label: 'Using Ubuntu'
 sidebar_position: 7
 ---
 
@@ -42,7 +42,7 @@ deb http://apt.radxa.com/bullseye-testing/ bullseye main
 ```
 sudo apt-get update
 ```
-更多细节请查看[Radxa APT](../notice#radxa-apt)
+更多细节请查看[Radxa APT](./apt#radxa-apt)
 
 4. 更新必要的包
 下面是升级rockchip-overlay和kernel软件包的例子。

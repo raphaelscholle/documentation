@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Debian系统使用'
+sidebar_label: 'Using Debian'
 sidebar_position: 6
 ---
 
@@ -239,7 +239,7 @@ deb http://apt.radxa.com/bullseye-testing/ bullseye main
 ```
 sudo apt-get update
 ```
-更多细节请查看[Radxa APT](../notice#radxa-apt)
+更多细节请查看[Radxa APT](./apt#radxa-apt)
 
 
 3. /boot/config.txt
