@@ -1,28 +1,22 @@
 ---
-sidebar_label: '产品列表'
+sidebar_label: 'Products'
 sidebar_position: 2
 ---
-# Radxa SBC系列
+# Radxa SBC Series
 
-## Radxa ROCK 4系列产品列表
+## ROCK 4 Family
 
-| 产品名 | 产品描述 |
-|-----|------|
-|     |      |
-|     |      |
-|     |      |
-|     |      |
-|     |      |
-|     |      |
+|     Model             |           Description             |
+|---------------------- |-----------------------------------|
+| ROCK 4SE (2022)       | RK3399-T with 4K HDMI             |
+| ROCK 4C+ (2022)       | RK3399-T with 4K + 2K HDMI        |
+| ROCK 4A / 4B (2018)   | RK3399 with 4K HDMI               |
+| ROCK 4A+ / 4B+ (2021) | OP1 with 4K HDMI and builtin eMMC |
+| ROCK 4C (2020)        | RK3399 with 4K HDMI + 2K mini DP  |
 
-## Radxa ROCK 5系列产品列表
+## ROCK 5 family
 
-| 产品名 | 产品描述 |
-|-----|------|
-|   ROCK 5 Module B  | 8K Single Board Computer with Quad Display |
-|     |      |
-|     |      |
-|     |      |
-|     |      |
-|     |      |
-
+| Model | Description |
+| ----  | ----------- |
+| ROCK 5B | 8K SBC with Quad Display |
+| ROCK 5A | Credit-Card Size SBC with 4K + 8K Display |

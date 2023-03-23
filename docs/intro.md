@@ -1,5 +1,5 @@
 ---
-sidebar_label: 'Radxa'
+sidebar_label: 'About Radxa'
 sidebar_position: 1
 ---
 
