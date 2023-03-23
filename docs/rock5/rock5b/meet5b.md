@@ -1,5 +1,5 @@
 ---
-sidebar_label: '介绍'
+sidebar_label: 'Meet ROCK 5B'
 sidebar_position: 1
 ---
 
