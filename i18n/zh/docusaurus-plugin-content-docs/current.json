@@ -67,28 +67,28 @@
     "message": "ROCK 5B 其他资料",
     "description": "The generated-index page description for category Other Resource in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.配件使用教程": {
-    "message": "配件使用教程",
-    "description": "The label for category 配件使用教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Using Accessories": {
+    "message": "配件使用",
+    "description": "The label for category Using Accessories in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.配件使用教程.link.generated-index.description": {
-    "message": "ROCK5B 配件使用教程",
-    "description": "The generated-index page description for category 配件使用教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Using Accessories.link.generated-index.description": {
+    "message": "ROCK 5B 配件使用说明",
+    "description": "The generated-index page description for category Using Accessories in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.系统开发教程": {
-    "message": "系统开发教程",
-    "description": "The label for category 系统开发教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Low level Development": {
+    "message": "系统开发",
+    "description": "The label for category Low level Development in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.系统开发教程.link.generated-index.description": {
-    "message": "ROCK5B系统开发",
-    "description": "The generated-index page description for category 系统开发教程 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Low level Development.link.generated-index.description": {
+    "message": "ROCK 5B 底层系统开发，包括驱动，启动引导，系统构建等",
+    "description": "The generated-index page description for category Low level Development in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.应用案例介绍": {
-    "message": "应用案例介绍",
-    "description": "The label for category 应用案例介绍 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Showcase": {
+    "message": "案例展示",
+    "description": "The label for category Showcase in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.应用案例介绍.link.generated-index.description": {
-    "message": "ROCK5B应用使用教程",
-    "description": "The generated-index page description for category 应用案例介绍 in sidebar tutorialSidebar"
+  "sidebar.tutorialSidebar.category.Showcase.link.generated-index.description": {
+    "message": "ROCK 5B 用户案例展示",
+    "description": "The generated-index page description for category Showcase in sidebar tutorialSidebar"
   }
 }
