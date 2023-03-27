@@ -1,23 +1,356 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.card>li:hover .goH1 {
+  color: #74BC1F;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.card>li:hover {
+  box-shadow: 0px 5.06748px 10.135px rgba(0, 0, 0, 0.25);
+}
+
+.card>li:hover {
+  color: #74BC1F;
+}
+
+.card>li:hover .goToIcon {
+  background: url(/static/colorRig.svg) no-repeat;
+  background-size: 55%;
+}
+
+ul {
+  padding: 0;
+}
+
+@media screen and (min-width: 1350px) {
+  .selectBox {
+    width: 100%;
+    height: 428px;
+    margin: 0 auto;
+    background: url(/static/selebg.svg) no-repeat;
+    background-size: 100%;
+  }
+
+  .centerBox {
+    width: 580px;
+    height: 300px;
+    margin: 100px auto 0;
+  }
+
+  .seleH {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .seleP {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 65px;
+  }
+
+  .list {
+    width: 1300px;
+    margin: 100px auto;
+  }
+
+  .list>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .card {
+    width: 1300px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card>li {
+    cursor: pointer;
+    width: 416.42px;
+    height: 292px;
+    background-color: #fff;
+    transition: .3s;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .card>li>.goTo {
+    height: 46px;
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .card>li>.goTo>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.5478px;
+    margin-bottom: 0;
+    color: #000000;
+    transition: .3s;
+
+  }
+
+  .card>li>p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.7739px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 12px;
+  }
+
+  .goToIcon {
+    width: 30.47px;
+    height: 30.47px;
+    background: url(/static/rig.svg) no-repeat;
+    background-size: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+    transition: .3s;
+  }
+
+  .card>.longli {
+    width: 500px;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media screen and (max-width: 1350px) and (min-width: 1050px) {
+  .selectBox {
+    width: 100%;
+    height: 328px;
+    margin: 0 auto;
+    background: url(/static/selebg.svg) no-repeat;
+    background-size: cover;
+  }
+
+  .centerBox {
+    width: 580px;
+    height: 300px;
+    margin: 50px auto 0;
+  }
+
+  .seleH {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .seleP {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 65px;
+  }
+
+  .list {
+    width: 1050px;
+    margin: 80px auto;
+  }
+
+  .list>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .card {
+    width: 1050px;
+    margin: 0 auto 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card>li {
+    cursor: pointer;
+    width: 336.42px;
+    height: 252px;
+    background-color: #fff;
+    transition: .3s;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .card>li>.goTo {
+    height: 46px;
+    margin-top: 50px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .card>li>.goTo>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35.5478px;
+    margin-bottom: 0;
+    color: #000000;
+    transition: .3s;
+
+  }
+
+  .card>li>p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17.7739px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 12px;
+  }
+
+  .goToIcon {
+    width: 30.47px;
+    height: 30.47px;
+    background: url(/static/rig.svg) no-repeat;
+    background-size: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+    transition: .3s;
+  }
+
+  .card>.longli {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 750px) {
+
+  .selectBox {
+    width: 100%;
+    height: 328px;
+    margin: 0 auto;
+    background: url(/static/selebg.svg) no-repeat;
+    background-size: cover;
+  }
+
+  .centerBox {
+    width: 580px;
+    height: 300px;
+    margin: 50px auto 0;
+  }
+
+  .seleH {
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+  }
+
+  .seleP {
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 65px;
+  }
+
+  .list {
+    width: 750px;
+    margin: 50px auto;
+  }
+
+  .list>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .card {
+    width: 700px;
+    margin: 0 auto 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card>li {
+    cursor: pointer;
+    width: 216.42px;
+    height: 162px;
+    background-color: #fff;
+    transition: .3s;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .card>li>.goTo {
+    height: 46px;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .card>li>.goTo>h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.5478px;
+    margin-bottom: 0;
+    color: #000000;
+    transition: .3s;
+
+  }
+
+  .card>li>p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: -0.015em;
+    color: rgba(0, 0, 0, 0.8);
+    margin-left: 12px;
+  }
+
+  .goToIcon {
+    width: 30.47px;
+    height: 30.47px;
+    background: url(/static/rig.svg) no-repeat;
+    background-size: 50%;
+    margin-left: 10px;
+    margin-top: 8px;
+    transition: .3s;
+  }
+
+  .card>.longli {
+    width: 500px;
+  }
 }

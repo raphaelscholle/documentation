@@ -1,45 +1,116 @@
-import React from 'react';
-import clsx from 'clsx';
+import React, { useState } from "react";
 import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import { Select, Space, ConfigProvider } from 'antd';
+import SearchBar from '@theme/SearchBar';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Translate from '@docusaurus/Translate';
 
-import styles from './index.module.css';
+const provinceData = ['中国', 'Jiangsu'];
+const cityData = {
+  '中国': ['江西', '广东', '北京'],
+  Jiangsu: ['Nanjing', 'Suzhou', 'Zhenjiang'],
+};
 
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+
+
+import styles from './index.module.css'
+export default () => {
+
+  const [cities, setCities] = useState(cityData[provinceData[0]]);
+  const [secondCity, setSecondCity] = useState(cityData[provinceData[0]][0])
+
+  const handleProvinceChange = (value) => {
+    setCities(cityData[value]);
+    setSecondCity(cityData[value][0]);
+  };
+  const onSecondCityChange = (value) => {
+    setSecondCity(value);
+  };
+
+
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1>
-          <Translate id="homepage.hero.hello">你好，世界！</Translate>
-        </h1>
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
-export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
-    </Layout>
-  );
+    <div style={{ backgroundColor: "rgb(249, 249, 249)" }}>
+      <Layout>
+        <ConfigProvider theme={{
+          token: {
+            colorPrimary: '#74BC1F',
+          },
+        }} >
+          <div className={styles.selectBox}>
+            <div className={styles.centerBox}>
+              <h1 className={styles.seleH}>ROCK Documentation</h1>
+              <p className={styles.seleP}>Single Board Computer</p>
+              <Space wrap>
+                <Select
+                  placement='bottomRight'
+                  bordered='false'
+                  defaultValue={provinceData[0]}
+                  style={{
+                    width: 200,
+                  }}
+                  onChange={handleProvinceChange}
+                  options={provinceData.map((province) => ({
+                    label: province,
+                    value: province,
+                  }))}
+                />
+                <Select
+                  bordered='false'
+                  style={{
+                    width: 200,
+                  }}
+                  value={secondCity}
+                  onChange={onSecondCityChange}
+                  options={cities.map((city) => ({
+                    label: city,
+                    value: city,
+                  }))}
+                />
+              </Space>
+              <div style={{ float: 'right' }}>
+              </div>
+              <SearchBar />
+            </div>
+          </div>
+          <div className={styles.list}>
+            <h1>ROCK 5 Model B</h1>
+            <ul className={styles.card} >
+              <li>
+                <div className={styles.goTo}>
+                  <h1 className={styles.goH1}>Hardware</h1>
+                  <div className={styles.goToIcon}></div>
+                </div>
+                <p>A text about getting started，A text about getting started</p>
+              </li>
+              <li>
+                <div className={styles.goTo}>
+                  <h1 className={styles.goH1}>Driver Tools</h1>
+                  <div className={styles.goToIcon}></div>
+                </div>
+                <p>A text about getting started，A text about getting started</p>
+              </li>
+              <li>
+              </li>
+              <li>
+                <div className={styles.goTo}>
+                  <h1 className={styles.goH1}>Hardware</h1>
+                  <div className={styles.goToIcon}></div>
+                </div>
+                <p>A text about getting started，A text about getting started</p>
+              </li>
+              <li>
+                <div className={styles.goTo}>
+                  <h1 className={styles.goH1}>Driver Tools</h1>
+                  <div className={styles.goToIcon}></div>
+                </div>
+                <p>A text about getting started，A text about getting started</p>
+              </li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </ConfigProvider>
+      </Layout>
+    </div>
+  )
 }
