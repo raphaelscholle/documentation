@@ -4,6 +4,8 @@ import { Select, Space, ConfigProvider } from 'antd';
 import SearchBar from '@theme/SearchBar';
 import Layout from '@theme/Layout';
 
+
+
 const provinceData = ['中国', 'Jiangsu'];
 const cityData = {
   '中国': ['江西', '广东', '北京'],
@@ -75,38 +77,14 @@ export default () => {
             <h1>ROCK 5 Model B</h1>
             <ul className={styles.card} >
               <li>
-                <div className={styles.goTo}>
-                  <h1 className={styles.goH1}>Hardware</h1>
-                  <div className={styles.goToIcon}></div>
-                </div>
-                <p>A text about getting started，A text about getting started</p>
+                <Link to='https://www.baidu.com'>
+                  <div className={styles.goTo}>
+                    <h1 className={styles.goH1}>Hardware</h1>
+                    <div className={styles.goToIcon}></div>
+                  </div>
+                  <p>A text about getting started，A text about getting started</p>
+                </Link>
               </li>
-              <li>
-                <div className={styles.goTo}>
-                  <h1 className={styles.goH1}>Driver Tools</h1>
-                  <div className={styles.goToIcon}></div>
-                </div>
-                <p>A text about getting started，A text about getting started</p>
-              </li>
-              <li>
-              </li>
-              <li>
-                <div className={styles.goTo}>
-                  <h1 className={styles.goH1}>Hardware</h1>
-                  <div className={styles.goToIcon}></div>
-                </div>
-                <p>A text about getting started，A text about getting started</p>
-              </li>
-              <li>
-                <div className={styles.goTo}>
-                  <h1 className={styles.goH1}>Driver Tools</h1>
-                  <div className={styles.goToIcon}></div>
-                </div>
-                <p>A text about getting started，A text about getting started</p>
-              </li>
-              <li></li>
-              <li></li>
-              <li></li>
             </ul>
           </div>
         </ConfigProvider>

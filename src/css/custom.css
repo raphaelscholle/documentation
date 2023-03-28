@@ -33,3 +33,14 @@
 li {
   list-style: none;
 }
+
+a:hover {
+  text-decoration: none;
+}
+
+.theme-doc-sidebar-menu>li:first-child {
+  display: none;
+  color: red;
+  width: 0;
+  height: 0;
+}

@@ -2,6 +2,12 @@
   color: #74BC1F;
 }
 
+li>a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 .card>li:hover {
   box-shadow: 0px 5.06748px 10.135px rgba(0, 0, 0, 0.25);
 }
@@ -87,7 +93,7 @@ ul {
     margin-top: 10px;
   }
 
-  .card>li>.goTo {
+  .card>li .goTo {
     height: 46px;
     margin-top: 50px;
     margin-left: 12px;
@@ -96,7 +102,7 @@ ul {
     align-items: center;
   }
 
-  .card>li>.goTo>h1 {
+  .card>li .goTo>h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 35.5478px;
@@ -106,7 +112,7 @@ ul {
 
   }
 
-  .card>li>p {
+  .card>li p {
     font-style: normal;
     font-weight: 300;
     font-size: 17.7739px;
@@ -199,7 +205,7 @@ ul {
     margin-top: 10px;
   }
 
-  .card>li>.goTo {
+  .card>li .goTo {
     height: 46px;
     margin-top: 50px;
     margin-left: 12px;
@@ -208,7 +214,7 @@ ul {
     align-items: center;
   }
 
-  .card>li>.goTo>h1 {
+  .card>li .goTo>h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 35.5478px;
@@ -218,7 +224,7 @@ ul {
 
   }
 
-  .card>li>p {
+  .card>li p {
     font-style: normal;
     font-weight: 300;
     font-size: 17.7739px;
@@ -312,7 +318,7 @@ ul {
     margin-top: 10px;
   }
 
-  .card>li>.goTo {
+  .card>li .goTo {
     height: 46px;
     margin-top: 20px;
     margin-left: 12px;
@@ -321,7 +327,7 @@ ul {
     align-items: center;
   }
 
-  .card>li>.goTo>h1 {
+  .card>li .goTo>h1 {
     font-style: normal;
     font-weight: 700;
     font-size: 25.5478px;
@@ -331,7 +337,7 @@ ul {
 
   }
 
-  .card>li>p {
+  .card>li p {
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
