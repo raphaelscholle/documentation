@@ -1,6 +1,6 @@
 {
   "label": "ROCK 5B",
-  "position": 1,
+  "position": 20,
   "link": {
     "type": "generated-index",
     "description": "ROCK 5B is a powerful SBC with quad display support in Pico-ITX form factor."
