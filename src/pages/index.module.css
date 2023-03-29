@@ -2,7 +2,7 @@
   color: #74BC1F;
 }
 
-li>a {
+.card>li>a {
   width: 100%;
   height: 100%;
   display: block;
