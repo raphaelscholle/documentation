@@ -18,21 +18,21 @@ sidebar_custom_props: {
 			docs: [
 				{
 					# 标题文字
-					title: 'Driver Tools',
+					title: 'Getting started',
 					# 介绍文字
-					info: 'A text about getting started，A text about getting started',
+					info: 'Getting started with ROCK 5B',
 					# docs站文档对应链接(/docs固定)
-					url: '/docs/rock5/rock5b/basic/apt.md',
+					url: 'https://google.com',
 					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
 					down_url: '/down/ROCK_5B/xxxxx.zip'
 				},
 				{
 					# 标题文字
-					title: 'Hardware',
+					title: 'Downloads',
 					# 介绍文字
-					info: 'A text about getting started，A text about getting started',
+					info: 'ROCK 5B OS images download',
 					# docs站文档对应链接
-					url: '/docs/xxx/xxx/xx',
+					url: 'https://google.com',
 					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
 					down_url: '/down/ROCK_5B/xxxxx.zip'
 				},
@@ -41,7 +41,7 @@ sidebar_custom_props: {
 		},
 		{
 			product_name: 'ROCK 5A',
-			product_code: 'xxxxx',
+			product_code: 'rs120',
 			Product_Line: 'ROCK 5 Series',
 			docs: [
 				{
@@ -50,7 +50,7 @@ sidebar_custom_props: {
 					# 介绍文字
 					info: 'A text about getting started，A text about getting started',
 					# docs站文档对应链接
-					url: 'http://xxxxxxxxxx',
+					url: 'https://google.com',
 					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
 					down_url: '/down/ROCK_5A/xxxxx.zip'
 				},
@@ -60,7 +60,7 @@ sidebar_custom_props: {
 					# 介绍文字
 					info: 'A text about getting started，A text about getting started',
 					# docs站文档对应链接
-					url: 'http://xxxxxxxxxx',
+					url: 'https://google.com',
 					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
 					down_url: '/down/ROCK_5B/xxxxx.zip'
 				},
