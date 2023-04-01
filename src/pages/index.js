@@ -45,8 +45,8 @@ export default () => {
         }} >
           <div className={styles.selectBox}>
             <div className={styles.centerBox}>
-              <h1 className={styles.seleH}>ROCK Documentation</h1>
-              <p className={styles.seleP}>Single Board Computer</p>
+              <h1 className={styles.seleH}>Radxa Documentation Center</h1>
+              <p className={styles.seleP}>Choose a product</p>
               <Space wrap>
                 <Select
                   placement='bottomRight'
