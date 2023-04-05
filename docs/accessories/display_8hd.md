@@ -4,4 +4,4 @@ sidebar_position: 5
 ---
 
 
-# 待编辑
+# Radxa Display 8 HD
