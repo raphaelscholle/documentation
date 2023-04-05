@@ -11,7 +11,7 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 2. 8GB
 3. 16GB
 
-![ROCK5A Front View](../../../../static/img/rock5a/rock5a-combo-view.webp)
+![ROCK5A Front View](/img/rock5a/rock5a-combo-view.webp)
 
 **_Note:_ The actual board layout or components location may change during the time but the main connectors type and location will remain the same**
 
@@ -74,8 +74,8 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 
 ## Mechanical Specification
 
-![ROCK5A Dimension Top](../../../../static/img/rock5a/radxa-rock5a-dimension-top.png)
-![ROCK5A Dimension Bottom](../../../../static/img/rock5a/radxa-rock5a-dimension-bottom.png)
+![ROCK5A Dimension Top](/img/rock5a/rock5a-dimension-top.png)
+![ROCK5A Dimension Bottom](/img/rock5a/rock5a-dimension-bottom.png)
 
 ## Electrical Specification
 
@@ -175,7 +175,3 @@ The ROCK 5A has a 2pin 1.25mm header that enables users to connect a 5V fan (or 
 # Availability
 
 Radxa guarantees availability of the ROCK 5A until at least September 2033.
-
-# Support
-
-For support please see the hardware documentation section of the [Radxa Wiki](https://wiki.radxa.com/Rock5) website and post questions to the [Radxa forum](https://forum.radxa.com/).

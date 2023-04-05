@@ -1,7 +1,7 @@
 ---
-sidebar_label: 'Radxa Camera 4K'
+sidebar_label: 'Radxa Power PD 30W'
 sidebar_position: 3
 ---
 
 
-# 待编辑
+# Radxa Power PD 30W
