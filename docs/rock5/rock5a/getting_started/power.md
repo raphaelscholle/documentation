@@ -23,7 +23,7 @@ sidebar_position: 50
 ### Shutdown and restart of the terminal interface
 
 Open the terminal command in the desktop  
-![ROCK5A terminal reboot 01](../../../../static/img/rock5a/rock5a-terminal-reboot-1.png)
+![ROCK5A terminal reboot 01](/img/rock5a/rock5a-terminal-reboot-1.png)
 
 **Restart**  
 Enter the following command and press Enter.
@@ -32,8 +32,8 @@ If wrong, please re-enter the correct password.
 ```
 sudo reboot
 ```
-![ROCK5A terminal reboot 02](../../../../static/img/rock5a/rock5a-terminal-reboot-2.png)
-![ROCK5A terminal reboot 03](../../../../static/img/rock5a/rock5a-terminal-reboot-3.png)
+![ROCK5A terminal reboot 02](/img/rock5a/rock5a-terminal-reboot-2.png)
+![ROCK5A terminal reboot 03](/img/rock5a/rock5a-terminal-reboot-3.png)
 
 **Shutdown**  
 Enter the following command and press Enter.
@@ -42,8 +42,8 @@ If wrong, please re-enter the correct password.
 ```
 sudo shutdown now
 ```
-![ROCK5A terminal shutdown 01](../../../../static/img/rock5a/rock5a-terminal-shutdown-1.png)
-![ROCK5A terminal shutdown 01](../../../../static/img/rock5a/rock5a-terminal-shutdown-2.png)
+![ROCK5A terminal shutdown 01](/img/rock5a/rock5a-terminal-shutdown-1.png)
+![ROCK5A terminal shutdown 01](/img/rock5a/rock5a-terminal-shutdown-2.png)
 
 ## Power Key Start  
 
@@ -52,6 +52,6 @@ As shown in the figure, the place where the arrow is pointing to is the switch b
 - When the device is on, press the power key and the device will shut down
 - When the device is off, press the power key and the device will turn on
 
-![ROCK5A Power](../../../../static/img/rock5a/rock5a-power.png)
+![ROCK5A Power](/img/rock5a/rock5a-power.png)
 
 
