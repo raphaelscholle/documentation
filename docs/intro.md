@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Radxa
 
-- RADXA® is pronounced as [reksə]. The name is derived from the Latin word radix, meaning root.RADXA® is a registered trademark of Shenzhen Rexa Technology.
+- RADXA® is pronounced as [reksə]. The name is derived from the Latin word radix, meaning root.RADXA® is a registered trademark of Shenzhen Radxa Technology.
 
 - Radxa is a startup founded in 2013, dedicated to designing, producing and selling open source hardware products, spreading knowledge and promoting open source culture. Radxa Technology also provides customization, prototyping, hardware and software integration services. Welcome to contact us.
 
