@@ -75,7 +75,7 @@ const config = {
         title: 'Radxa Documentation',
         logo: {
           alt: 'Radxa',
-          src: 'radxa.png',
+          src: 'logo.svg',
           width: 80,
         },
         items: [
