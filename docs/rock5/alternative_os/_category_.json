@@ -1,0 +1,8 @@
+{
+  "label": "Alternative OS",
+  "position": 90,
+  "link": {
+    "type": "generated-index",
+    "description": "Many other OSes already supports ROCK 5 family"
+  }
+}
