@@ -34,8 +34,13 @@ ul {
     background-size: 100%;
   }
 
+  .spaceBox {
+    margin: 0 auto;
+    width: 408px;
+  }
+
   .centerBox {
-    width: 580px;
+    width: 880px;
     height: 300px;
     margin: 100px auto 0;
   }
@@ -147,9 +152,14 @@ ul {
   }
 
   .centerBox {
-    width: 580px;
+    width: 880px;
     height: 300px;
     margin: 50px auto 0;
+  }
+
+  .spaceBox {
+    margin: 0 auto;
+    width: 408px;
   }
 
   .seleH {
@@ -260,9 +270,14 @@ ul {
   }
 
   .centerBox {
-    width: 580px;
+    width: 700px;
     height: 300px;
     margin: 50px auto 0;
+  }
+
+  .spaceBox {
+    margin: 0 auto;
+    width: 408px;
   }
 
   .seleH {
@@ -270,7 +285,7 @@ ul {
     text-align: center;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 120%;
   }
 
@@ -279,7 +294,7 @@ ul {
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 120%;
     margin-bottom: 65px;
   }

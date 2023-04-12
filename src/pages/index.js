@@ -47,33 +47,35 @@ export default () => {
             <div className={styles.centerBox}>
               <h1 className={styles.seleH}>Radxa Documentation Center</h1>
               <p className={styles.seleP}>Choose a product</p>
-              <Space wrap>
-                <Select
-                  placement='bottomRight'
-                  bordered='false'
-                  defaultValue={provinceData[0]}
-                  style={{
-                    width: 200,
-                  }}
-                  onChange={handleProvinceChange}
-                  options={provinceData.map((province) => ({
-                    label: province,
-                    value: province,
-                  }))}
-                />
-                <Select
-                  bordered='false'
-                  style={{
-                    width: 200,
-                  }}
-                  value={secondCity}
-                  onChange={onSecondCityChange}
-                  options={cities.map((city) => ({
-                    label: city,
-                    value: city,
-                  }))}
-                />
-              </Space>
+              <div className={styles.spaceBox}>
+                <Space wrap>
+                  <Select
+                    placement='bottomRight'
+                    bordered='false'
+                    defaultValue={provinceData[0]}
+                    style={{
+                      width: 200,
+                    }}
+                    onChange={handleProvinceChange}
+                    options={provinceData.map((province) => ({
+                      label: province,
+                      value: province,
+                    }))}
+                  />
+                  <Select
+                    bordered='false'
+                    style={{
+                      width: 200,
+                    }}
+                    value={secondCity}
+                    onChange={onSecondCityChange}
+                    options={cities.map((city) => ({
+                      label: city,
+                      value: city,
+                    }))}
+                  />
+                </Space>
+              </div>
               <div style={{ float: 'right' }}>
               </div>
               <SearchBar />
