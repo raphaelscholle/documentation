@@ -3,6 +3,7 @@
   "position": 90,
   "link": {
     "type": "generated-index",
+	"slug": "/rock5/alt-os",
     "description": "Many other OSes already supports ROCK 5 family"
   }
 }

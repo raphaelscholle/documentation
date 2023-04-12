@@ -3,6 +3,7 @@
   "position": 20,
   "link": {
     "type": "generated-index",
+	"slug": "/rock5",
     "description": "ROCK 5 is the latest series of SBC and SoM powered by Rockchip RK3588/RK3588S with 8K display and 6T NPU."
   }
 }

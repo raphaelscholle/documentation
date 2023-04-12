@@ -3,6 +3,7 @@
   "position": 50,
   "link": {
     "type": "generated-index",
+	"slug": "/rock5/lowlevel-dev",
     "description": "Lowlevel Development"
   }
 }
