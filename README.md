@@ -1,6 +1,9 @@
-# website
-- This website was built with [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Radxa Documentation Website
+- Radxa's corresponding product documentation, including product introduction, usage tutorials, etc.
 
+
+## Project Profile
+- Based on Docusaurus V2.4.0 version development, Docusaurus framework out of the box, unified configuration file, comes with a one-click deployment, built-in support for internationalization, document publishing, structural layering.
 
 
 ### How to install and launch the project on your own computer?
