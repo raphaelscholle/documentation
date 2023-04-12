@@ -10,6 +10,7 @@ const config = {
   tagline: 'Documentations for Radxa products',
   url: 'https://docs.radxa.com',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
