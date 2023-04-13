@@ -9,7 +9,7 @@ sidebar_position: 20
 
 ## Necessary
 
-1. Radxa ROCK 5 Model A(Rock 5A) Version V1.0
+1. Radxa ROCK 5 Model A(Rock 5A)
 
 2. microSD, larger than 8GB
 
@@ -20,7 +20,7 @@ sidebar_position: 20
     3. Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port    
     4. 5V Power applied to the GPIO PIN 2 & 4
 
-**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd_30w)**
+&nbsp&nbsp&nbsp&nbsp**The official recommendation is to use [Radxa Power PD30W](../../../accessories/pd_30w)**
 
 4. USB Keyboard and Mouse
     1. With 2x USB-A 2.0 HOST connectors, ROCK 5A can be equipped with a full sized keyboard and mouse.
