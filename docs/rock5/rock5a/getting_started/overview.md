@@ -7,9 +7,9 @@ sidebar_position: 10
 
 The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact form factor packed with a wide range of class-leading functionality, features and expansion options. The ROCK 5A is an ideal choice for makers, IoT enthusiasts, hobbyists, gamers, PC users and everyone who need an extremely highly specified platform with outstanding performance and reliability. Radxa offers the ROCK 5A board in various LPDDR4x RAM memory options:
 
-1. 4GB
-2. 8GB
-3. 16GB
+&nbsp;4GB<br/>
+&nbsp;8GB<br/>
+&nbsp;16GB<br/>
 
 ![ROCK5A Front View](/img/rock5a/rock5a-combo-view.webp)
 
@@ -19,49 +19,51 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 
 ### Hardware
 
-1. Rockchip RK3588S SoC
-2. Quad Cortex®-A76 @ 2.2~2.4GHz and a quad Cortex®-A55 @ 1.8GHz based on Arm® DynamIQ™ configuration
-3. Arm Mali™ G610MC4 GPU supporting:
-    1. OpenGL® ES1.1, ES2.0, and ES3.2
-    2. OpenCL® 1.1, 1.2 and 2.2
-    3. Vulkan® 1.1 and 1.2
-    4. Embedded high performance 2D image acceleration module
-4. NPU supporting INT4/INT8/INT16/FP16/BF16 and TF32 acceleration and computing power is up to 6TOPs
-5. 64bits LPDDR4x RAM options:4GB. 8GB. 16GB.
-6. Able to provide 3 display outputs via two HDMI, and one MIPI DSI
-7. H.265/H.264/AV1/AVS2 multivideo decoder up to 8K@60fps
-8. H.264/H.265 multivideo decoder up to 8K@30fps
+- Rockchip RK3588S SoC  
+- Quad Cortex®-A76 @ 2.2~2.4GHz and a quad Cortex®-A55 @ 1.8GHz based on Arm® DynamIQ™ configuration  
+- Arm Mali™ G610MC4 GPU supporting: 
+
+&nbsp;&nbsp;&nbsp;&nbsp;OpenGL® ES1.1, ES2.0, and ES3.2  
+&nbsp;&nbsp;&nbsp;&nbsp;OpenCL® 1.1, 1.2 and 2.2  
+&nbsp;&nbsp;&nbsp;&nbsp;Vulkan® 1.1 and 1.2  
+&nbsp;&nbsp;&nbsp;&nbsp;Embedded high performance 2D image acceleration module
+
+- NPU supporting INT4/INT8/INT16/FP16/BF16 and TF32 acceleration and computing power is up to 6TOPs
+- 64bits LPDDR4x RAM options:4GB. 8GB. 16GB.
+- Able to provide 3 display outputs via two HDMI, and one MIPI DSI
+- H.265/H.264/AV1/AVS2 multivideo decoder up to 8K@60fps
+- H.264/H.265 multivideo decoder up to 8K@30fps
 
 ### Interfaces
 
-1. 1x USB Type-C™ port for power supporting USB PD 2.0 and QC 2.0
-2. 1x Micro SD Card
-3. 2x micro HDMI output ports, one supporting displays up to 8Kp60 resolution, one supporting up to 4Kp60
-4. 2x USB2 Type A HOST ports
-5. 1x USB3 Type A HOST port, 1x USB3 Type A OTG/HOST port
-6. 1x Gigabit Ethernet port (supports PoE with add-on PoE HAT)
-7. 1x M.2 E Key with PCIe 2.1 one-lane, SATA, USB 2.0 support
-8. 1x eMMC module connector for eMMC 5.1 support
-9. 1x Camera port (1x four-lane MIPI CSI or 2x two-lane MIPI CSI)
-10. 1x LCD Display port (four-lane MIPI DSI)
-11. Miscellaneous
-    1. 1x RTC battery connector
-    2. 1x PWM fan connector
-    3. 1x Power button
-	4. 1x Recovery pin, 1x Maskrom pin
-    5. 1x Power LED, 1x User LED
-12. 40 pin 0.1" (2.54mm) header supporting a wide range of interface options:
-    1. Up to 5 x UART(2x with flow control)
-    2. Up to 3 x SPI bus
-    3. Up to 6 x I2C bus
-    4. Up to 1 x PCM/I2S
-    5. Up to 2 x SPDIF
-    6. Up to 7 x PWM
-    7. Up to 1 x CAN
-    8. Up to 1 x ADC
-    9. Up to 27 x GPIO
-    10. 2 x 5V DC power in/out
-    11. 2 x 3.3V power out
+- 1x USB Type-C™ port for power supporting USB PD 2.0 and QC 2.0
+- 1x Micro SD Card
+- 2x micro HDMI output ports, one supporting displays up to 8Kp60 resolution, one supporting up to 4Kp60
+- 2x USB2 Type A HOST ports
+- 1x USB3 Type A HOST port, 1x USB3 Type A OTG/HOST port
+- 1x Gigabit Ethernet port (supports PoE with add-on PoE HAT)
+- 1x M.2 E Key with PCIe 2.1 one-lane, SATA, USB 2.0 support
+- 1x eMMC module connector for eMMC 5.1 support
+- 1x Camera port (1x four-lane MIPI CSI or 2x two-lane MIPI CSI)
+- 1x LCD Display port (four-lane MIPI DSI)
+- Miscellaneous
+&nbsp;&nbsp;&nbsp;&nbsp;1x RTC battery connector  
+&nbsp;&nbsp;&nbsp;&nbsp;1x PWM fan connector  
+&nbsp;&nbsp;&nbsp;&nbsp;1x Power button  
+&nbsp;&nbsp;&nbsp;&nbsp;1x Recovery pin, 1x Maskrom pin  
+&nbsp;&nbsp;&nbsp;&nbsp;1x Power LED, 1x User LED  
+- 40 pin 0.1" (2.54mm) header supporting a wide range of interface options:
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 5 x UART(2x with flow control)  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 3 x SPI bus  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 6 x I2C bus  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 1 x PCM/I2S  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 2 x SPDIF  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 7 x PWM  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 1 x CAN  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 1 x ADC  
+&nbsp;&nbsp;&nbsp;&nbsp;Up to 27 x GPIO  
+&nbsp;&nbsp;&nbsp;&nbsp;2 x 5V DC power in/out  
+&nbsp;&nbsp;&nbsp;&nbsp;2 x 3.3V power out  
 
 ### Software
 
