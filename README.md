@@ -1,62 +1,29 @@
-## Radxa Documentation Website
-- Radxa's corresponding product documentation, including product introduction, usage tutorials, etc.
+---
+sidebar_label: 'Welcome'
+sidebar_position: 1
+---
 
+# About
 
-## Project Profile
-- Based on Docusaurus V2.4.0 version development, Docusaurus framework out of the box, unified configuration file, comes with a one-click deployment, built-in support for internationalization, document publishing, structural layering.
+The Radxa Documentation Center is the place for tutorials and guides for supporting Radxa SBCs and accessories, maintained by the Radxa team and community.
 
+# Problems encountered
 
-### How to install and launch the project on your own computer?
-- Step 1: **Install Node.js**, download the official counterpart of Node.js according to your computer system, it is recommended to download the long-term stable version [node.js](https://nodejs.org/en/download). After the installation is complete, type node -v in the command line to check the version information and make sure the installation is successful.
+If you encounter any problems while using this documentation, please [submit an issue via Github](https://github.com/radxa-docs/documentation/issues) and we will respond as soon as possible.
 
-- Step 2: Go to the project, open the command line, and  **resurrect the third-party package**
+# Join the community
 
-    ```
-    npm install
-    yarn install
-    pnpm install
-    ```
+* Official Forum: [Radxa Forum](http://forum.radxa.com) - Main technical support channel, both English and Chinese are supported, Chinese content should be posted in the [Chinese section](https://forum.radxa.com/c/world/china).
+* Discord Community: [Radxa Discord](https://rock.sh/go) - Instant chatting and discussion group, English only
+* QQ Group: 591048098 - QQ Discussion group, mostly Chinese
+* QQ Channel: [Radxa QQ Channel](https://pd.qq.com/s/23wlhn9j8)
+* WeChat group: ![Radxa ROCK5B](/zh/img/wechat_group/ROCK5B.png), mostly Chinese
 
+## Attention
 
-### Local development
+We do not recommend discussing technical issues or seeking help in closed environment such as (WeChat group / QQ group and other APPs that cannot be crawled by search engines), but try to discuss technical issues in open places such as official forums or Github issues. The main purpose of WeChat / QQ group is to socialize and quickly find like-minded people.
 
-- Use the following command to start the local development server and open a browser window. Most changes are reflected in real time and do not require restarting the server.
+# Contribute
 
-    ```
-    npm run start
-    yarn run start
-    pnpm run start
-    ```
-
-
-### build
-
-- The following command generates static content into the ``build`` directory, which can be used with any static content hosting service.
-
-    ```
-    npm run build
-    yarn run build
-    pnpm run build
-    ```
-
-
-### Deployment
-
-- One-click deployment on github without packaging, the program will be packaged after the build by default after executing the following command, you need to make sure there are no problems with post-build packaging ！！！！
-- If you use GitHub page hosting, this command allows you to easily build a website and push it to the `gh-pages` branch.
-
-
-* Using SSH:
-    ```
-    $ USE_SSH=true yarn deploy
-    ```
-
-* Without SSH:
-    ```
-    $ GIT_USER=<your GitHub username> yarn deploy
-    ```
-
-### Write at the end
-- For details on how to start the Docusaurus project, please refer to the official documentation [Installation](https://docusaurus.io/docs/installation)
-- Windows users and Linux users follow the above steps to start the project, the general operation is the same, the difference between the two is the Node.js system version download, and the use of their own package management commands, **remember not to confuse!**
+We warmly welcome everyone to give feedback on Radxa documentation, contribute patches, add content, and showcase your creations. Just send us PR.
 
