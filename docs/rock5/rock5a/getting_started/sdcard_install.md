@@ -9,11 +9,9 @@ sidebar_position: 31
 
 1. Prepare a Micro SD card
 2. Prepare an SD card reader
-3. Download the official Ubuntu/Debian system image from [Downloads](https://wiki.radxa.com/Rock5/downloads).  
-  - ![ROCK5A OS Downloads Page](/img/rock5a/rock5a-os.png)
-
+3. Download the official Ubuntu/Debian system image from [Downloads](../downloads/official_images).
 4. Insert the SD card into the card reader, then insert the card reader into the USB port of the computer.  
-  - ![ROCK5A Install](/img/accessories/sd_install-1.png)
+![ROCK5A Install](/img/accessories/sd_install-1.png)
 
 
 ## Flash OS image to micro SD card
