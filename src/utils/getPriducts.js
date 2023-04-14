@@ -9,12 +9,17 @@ function getProduct_Line(obj) {
 
 function getProduct_Name(obj) {
     let o = {}
-    let arr = []
     obj.map((item, idx) => {
-        if (arr.indexOf(item.product_name) == -1) {
-            arr.push(item.product_name)
-        }
-        o[item.Product_Line] = arr
+        o[item.Product_Line] = null
+    })
+    Object.keys(o).map((item1, idx) => {
+        let arr = []
+        obj.map((item2, idx) => {
+            if (item2.Product_Line === item1) {
+                arr.push(item2.product_name)
+            }
+            o[item1] = arr
+        })
     })
     return o
 }

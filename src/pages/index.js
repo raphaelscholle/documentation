@@ -9,11 +9,6 @@ import { getDocs } from "../utils/getDocs";
 import { getProduct_Line, getProduct_Name, getProduct_doc } from "../utils/getPriducts";
 
 
-// const provinceData = ['中国', 'Jiangsu'];
-// const cityData = {
-//   '中国': ['江西', '广东', '北京'],
-//   Jiangsu: ['Nanjing', 'Suzhou', 'Zhenjiang'],
-// };
 
 export default () => {
   const homeDoc = getDocs().Home.sidebar_custom_props.product_docs
@@ -26,7 +21,6 @@ export default () => {
   const element = getProduct_doc(homeDoc, secondCity)
 
   const handleProvinceChange = (value) => {
-    console.log(value);
     setCities(cityData[value]);
     setSecondCity(cityData[value][0]);
   };
@@ -40,7 +34,7 @@ export default () => {
       <Layout>
         <ConfigProvider theme={{
           token: {
-            colorPrimary: '#74BC1F',
+            colorPrimary: '#fff',
           },
         }} >
           <div className={styles.selectBox}>
@@ -54,7 +48,7 @@ export default () => {
                     bordered='false'
                     defaultValue={provinceData[0]}
                     style={{
-                      width: 200,
+                      width: 235,
                     }}
                     onChange={handleProvinceChange}
                     options={provinceData.map((province) => ({
@@ -65,7 +59,7 @@ export default () => {
                   <Select
                     bordered='false'
                     style={{
-                      width: 200,
+                      width: 235,
                     }}
                     value={secondCity}
                     onChange={onSecondCityChange}
@@ -83,13 +77,13 @@ export default () => {
           </div>
           <div className={styles.list}>
             <h1>
-              {secondCity === "ROCK 5B" ? 'ROCK 5 Model B' : secondCity === "ROCK 5A" ? 'ROCK 5 Model A' : nill}
+              {secondCity === "ROCK 5B" ? 'ROCK 5 Model B' : secondCity === "ROCK 5A" ? 'ROCK 5 Model A' : null}
             </h1>
             <ul className={styles.card} >
               {
                 element.map((item, idx) => {
                   return (
-                    <li key={idx}>
+                    <li key={idx} className={styles.doc}>
                       <Link to={item.url}>
                         <div className={styles.goTo}>
                           <h1 className={styles.goH1}>{item.title}</h1>

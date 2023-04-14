@@ -73,7 +73,6 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        title: 'Radxa Documentation',
         logo: {
           alt: 'Radxa',
           src: 'logo.svg',

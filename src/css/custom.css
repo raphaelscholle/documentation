@@ -52,13 +52,62 @@ a:hover {
 
 .navbar__logo {
   height: 30px;
+  margin-right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .navbar__logo img {
-  margin-top: -10px;
-  margin-right: 10px;
+  margin-top: -8px;
   height: 100%;
+}
+
+.theme-doc-sidebar-item-link-level-1>a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #606770;
+}
+
+.theme-doc-sidebar-item-category>.menu__list-item-collapsible>a {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #606770;
+}
+
+.theme-doc-sidebar-item-category-level-2>.menu__list>.theme-doc-sidebar-item-category-level-3>.menu__list-item-collapsible>a {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: #606770;
+}
+
+.theme-doc-sidebar-item-link-level-4>a {
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  color: #606770;
+}
+
+.menu__link--active {
+  color: #297A4B !important;
+}
+
+.ant-select-item-option-active {
+  opacity: 1;
+  background-color: #74Bc1f !important;
+}
+
+.footer {
+  background-color: #090909 !important;
+}
+
+.footer_box {
+  background-color: #090909 !important;
+}
+
+.ant-select-item-option-active>.ant-select-item-option-content {
+  color: #fff;
 }

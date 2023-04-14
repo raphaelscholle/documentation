@@ -66,7 +66,36 @@ sidebar_custom_props: {
 				},
 				# ...
 			],
+		},
+		{
+			product_name: 'ROCK 3C',
+			product_code: 'rs120',
+			Product_Line: 'ROCK 3 Series',
+			docs: [
+				{
+					# 标题文字
+					title: 'Driver Tools',
+					# 介绍文字
+					info: 'A text about getting started，A text about getting started',
+					# docs站文档对应链接
+					url: 'https://google.com',
+					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
+					down_url: '/down/ROCK_5A/xxxxx.zip'
+				},
+				{
+					# 标题文字
+					title: 'Hardware',
+					# 介绍文字
+					info: 'A text about getting started，A text about getting started',
+					# docs站文档对应链接
+					url: 'https://google.com',
+					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
+					down_url: '/down/ROCK_5B/xxxxx.zip'
+				},
+				# ...
+			],
 		}
+
 	]
 }
 ---
