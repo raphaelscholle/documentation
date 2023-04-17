@@ -6,33 +6,36 @@ sidebar_position: 20
 
 # How to setup M.2 E Key extension board on ROCK 5A
 
-- This is the overall effect of ROCK5A with M.2 Extension Board.   
-**Here you need M.2 E key to M key Board. please continue to see the installation steps below.**
+- This is ROCK5A with M.2 Extension Board.
 ![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-01.jpg)
 
-- The picture below shows the M.2 Extension Board for ROCK5A.  
-**Please make sure you have the M.2 E key to M.2 M key adapter board before you buy. We have configured a different adapter board to support Radxa products. For details, you click the link.[M.2 Extension Board](../../../accessories/m2_extension_board)**
+- The picture below shows the RADXA M.2 Extension Board and the included parts.  
+**Please click the link for details.[M.2 Extension Board](../../../accessories/m2_extension_board)**
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-03.jpg)
 
-- Please distinguish the front and back side of the EDP cable first. Please put the EDP cable front side up and then install it to the M.2 E key to M key adapter board and M.2 Extension Board. As shown in the picture.   
-**The EDP cable is oriented towards the ROCK5A, i.e. the front side is on the same side.**
+- Please distinguish the front and back side of the EDP cable first. As shown in the picture. 
+
+**The two ends of the EDP cable we provide for ROCK5A are oriented in the same direction.**
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.jpg)
 
-- M.2 E key to M.2 M key Board with EDP Cable
-![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-02.jpg)
-
-- M.2 Extension Board with EDP Cable
-![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-01.jpg)
+- Please note that the ring buckle needs to jam into the connector.
+![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.jpg)
 
 ## Install Guide
 
-1. Please install the M2.5 copper post that comes with the product as shown.
+1. M.2 E key to M.2 M key Board with EDP Cable. **Note that the EDP cable is installed here with the front side up and the ring buckle needs to be jammed to the interface to ensure that it is fixed.**
+![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-02.jpg)
+
+2. M.2 Extension Board with EDP Cable. **Note that the EDP cable is installed here with the front side up and the ring buckle needs to be jammed to the interface to ensure that it is fixed.**
+![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-01.jpg)
+
+3. Please install the M2.5x18+6 copper post and M2.5x5 copper post included with the product on the ROCK5A as shown in the picture.
 ![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-04.jpg)
 
-2. Install the M.2 E key to M key board into the M.2 E key interface of ROCK5A. As shown in the picture.
+4. Please Connect one end of the EDP cable to the M.2 E key to M Key board and the other end to the M.2 Extension Board and Install the M.2 E key to M key board to the M.2 E key connector of ROCK5A. As shown in the picture.
 ![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-03.jpg)
 
-3. Finally, the M.2 extension board is assembled using M2.5 copper posts.
+5. Finally, the M.2 extension board is assembled using M2.5x5+5 copper posts.
 ![ROCK5A Install M.2 Extension Board](/img/rock5a/rock5a-m2-extension-board-02.jpg)
 
 ## As a storage drive
