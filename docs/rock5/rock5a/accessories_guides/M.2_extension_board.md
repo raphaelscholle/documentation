@@ -18,8 +18,8 @@ sidebar_position: 20
 **The two ends of the EDP cable we provide for ROCK5A are oriented in the same direction.**
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.jpg)
 
-- Please note that the ring buckle needs to jam into the connector.
-![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.jpg)
+- Please note that the **Ring Buckle** needs to jam into the connector.
+![E key to M key](/img/accessories/ekey-to-mkey-01.jpg)
 
 ## Install Guide
 

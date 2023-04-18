@@ -16,7 +16,7 @@ sidebar_position: 20
 ![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.jpg)
 
 - Please note that the ring buckle needs to jam into the connector.
-![ROCK5A Install M.2 Extension Board](/img/accessories/m2-extension-board-04.jpg)
+![E key to M key](/img/accessories/ekey-to-mkey-01.jpg)
 
 ## Install Guide
 
@@ -33,5 +33,29 @@ sidebar_position: 20
 ![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-03.jpg)
 
 5. Finally, the Radxa Penta SATA HAT is assembled using M2.5x5+5 copper posts.
-![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-03.jpg)
+![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-01.jpg)
+![ROCK5A Install Penta SATA HAT](/img/rock5a/rock5a-penta-sata-hat-02.jpg)
 
+## As a storage drive
+
+1.  you can check whether the SATA devices is recognized by ```lsblk```.
+```
+radxa@rock-5a:~$ lsblk
+NAME         MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda            8:0    0 465.8G  0 disk 
+└─sda1         8:1    0 465.8G  0 part 
+sdb            8:16   0 465.8G  0 disk 
+└─sdb1         8:17   0 465.8G  0 part 
+sdc            8:32   0 465.8G  0 disk 
+└─sdc1         8:33   0 465.8G  0 part 
+sdd            8:48   0 465.8G  0 disk 
+└─sdd1         8:49   0 465.8G  0 part 
+mmcblk0      179:0    0  14.5G  0 disk 
+├─mmcblk0p1  179:1    0    16M  0 part /config
+└─mmcblk0p2  179:2    0  14.4G  0 part /
+mmcblk0boot0 179:32   0     4M  1 disk 
+mmcblk0boot1 179:64   0     4M  1 disk 
+zram0        254:0    0   3.8G  0 disk [SWAP]
+radxa@rock-5a:~$ 
+```
+2. As you can see, the system has recognized the SATA devices(sda/sdb/sdc/sdd).
