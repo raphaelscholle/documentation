@@ -77,7 +77,7 @@ export default () => {
           </div>
           <div className={styles.list}>
             <h1>
-              {secondCity === "ROCK 5B" ? 'ROCK 5 Model B' : secondCity === "ROCK 5A" ? 'ROCK 5 Model A' : null}
+              {secondCity === "ROCK 5B" ? 'ROCK 5 Model B' : secondCity === "ROCK 5A" ? 'ROCK 5 Model A' : secondCity === "ROCK 3C" ? 'ROCK 3 Model C' : null}
             </h1>
             <ul className={styles.card} >
               {
