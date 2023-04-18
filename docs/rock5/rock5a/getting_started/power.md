@@ -41,9 +41,12 @@ sudo shutdown now
 
 As shown in the figure, the place where the arrow is pointing to is the power key.
 
-- When the device is on, press the power key and the device will shut down, power green led and user blue led will be off.
-- When the device is off, press the power key and the device will turn on. The power green led will be always on when working, and the user blue led will flash.
+- When the device is off, press the power key and the device will turn on. The power green led will be always on when working, and the status blue led will flash.
 
 ![ROCK5A Power](/img/rock5a/rock5a-power.png)
+
+- When the device is on, press the power key and the screen will pop up the user state selection. You can choose sleep, restart, shutdown or lag out. When you turn off the device, power green led and status blue led will be off.
+
+![ROCK5A Power](/img/rock5a/rock5a-power-status.webp)
 
 
