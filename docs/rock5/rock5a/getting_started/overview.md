@@ -7,9 +7,9 @@ sidebar_position: 10
 
 The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact form factor packed with a wide range of class-leading functionality, features and expansion options. The ROCK 5A is an ideal choice for makers, IoT enthusiasts, hobbyists, gamers, PC users and everyone who need an extremely highly specified platform with outstanding performance and reliability. Radxa offers the ROCK 5A board in various LPDDR4x RAM memory options:
 
-&nbsp;4GB<br/>
-&nbsp;8GB<br/>
-&nbsp;16GB<br/>
+4GB  
+8GB  
+16GB  
 
 ![ROCK5A Front View](/img/rock5a/rock5a-combo-view.webp)
 
@@ -23,10 +23,10 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 - Quad Cortex®-A76 @ 2.2~2.4GHz and a quad Cortex®-A55 @ 1.8GHz based on Arm® DynamIQ™ configuration  
 - Arm Mali™ G610MC4 GPU supporting: 
 
-&nbsp;&nbsp;&nbsp;&nbsp;OpenGL® ES1.1, ES2.0, and ES3.2  
-&nbsp;&nbsp;&nbsp;&nbsp;OpenCL® 1.1, 1.2 and 2.2  
-&nbsp;&nbsp;&nbsp;&nbsp;Vulkan® 1.1 and 1.2  
-&nbsp;&nbsp;&nbsp;&nbsp;Embedded high performance 2D image acceleration module
+OpenGL® ES1.1, ES2.0, and ES3.2  
+OpenCL® 1.1, 1.2 and 2.2  
+Vulkan® 1.1 and 1.2  
+Embedded high performance 2D image acceleration module  
 
 - NPU supporting INT4/INT8/INT16/FP16/BF16 and TF32 acceleration and computing power is up to 6TOPs
 - 64bits LPDDR4x RAM options:4GB. 8GB. 16GB.
@@ -47,23 +47,25 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 - 1x Camera port (1x four-lane MIPI CSI or 2x two-lane MIPI CSI)
 - 1x LCD Display port (four-lane MIPI DSI)
 - Miscellaneous
-&nbsp;&nbsp;&nbsp;&nbsp;1x RTC battery connector  
-&nbsp;&nbsp;&nbsp;&nbsp;1x PWM fan connector  
-&nbsp;&nbsp;&nbsp;&nbsp;1x Power button  
-&nbsp;&nbsp;&nbsp;&nbsp;1x Recovery pin, 1x Maskrom pin  
-&nbsp;&nbsp;&nbsp;&nbsp;1x Power LED, 1x User LED  
+
+1x RTC battery connector  
+1x PWM fan connector  
+1x Power button  
+1x Recovery pin, 1x Maskrom pin  
+1x Power LED, 1x User LED  
 - 40 pin 0.1" (2.54mm) header supporting a wide range of interface options:
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 5 x UART(2x with flow control)  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 3 x SPI bus  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 6 x I2C bus  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 1 x PCM/I2S  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 2 x SPDIF  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 7 x PWM  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 1 x CAN  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 1 x ADC  
-&nbsp;&nbsp;&nbsp;&nbsp;Up to 27 x GPIO  
-&nbsp;&nbsp;&nbsp;&nbsp;2 x 5V DC power in/out  
-&nbsp;&nbsp;&nbsp;&nbsp;2 x 3.3V power out  
+
+Up to 5 x UART(2x with flow control)  
+Up to 3 x SPI bus  
+Up to 6 x I2C bus  
+Up to 1 x PCM/I2S  
+Up to 2 x SPDIF  
+Up to 7 x PWM  
+Up to 1 x CAN  
+Up to 1 x ADC  
+Up to 27 x GPIO  
+2 x 5V DC power in/out  
+2 x 3.3V power out  
 
 ### Software
 
@@ -85,10 +87,10 @@ The Radxa ROCK 5 Model A (ROCK 5A) is a Single Board Computer (SBC) in a compact
 
 The ROCK 5A supports various power supply technologies including smart power adapter as well as fixed voltage:
 
-1. USB Type-C™ PD Version 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A.
-2. Qualcomm® Quick Charge™ 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
-3. Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port
-4. 5V Power applied to the GPIO PIN 2 & 4
+- USB Type-C™ PD Version 2.0 with 9V/2A, 12V/2A, 15V/2A and 20V/2A.
+- Qualcomm® Quick Charge™ 2.0 QC 3.0/2.0 adapter, 9V/2A, 12V/2A
+- Power adapter with fixed voltage in 5.2V to 20V range on the USB Type-C port
+- 5V Power applied to the GPIO PIN 2 & 4
 
 The recommended power source should be able to produce, at least, 24W without a M.2 SSD or 30W with a M.2 SSD.
 
