@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from '@docusaurus/Link';
 import { Select, Space, ConfigProvider } from 'antd';
 import SearchBar from '@theme/SearchBar';
@@ -30,8 +30,8 @@ export default () => {
 
 
   return (
-    <div style={{ backgroundColor: "rgb(249, 249, 249)" }}>
-      <Layout>
+    <Layout>
+      <div style={{ backgroundColor: "rgb(249, 249, 249)" }}>
         <ConfigProvider theme={{
           token: {
             colorPrimary: '#fff',
@@ -48,7 +48,7 @@ export default () => {
                     bordered='false'
                     defaultValue={provinceData[0]}
                     style={{
-                      width: 235,
+                      minWidth: 168,
                     }}
                     onChange={handleProvinceChange}
                     options={provinceData.map((province) => ({
@@ -59,7 +59,7 @@ export default () => {
                   <Select
                     bordered='false'
                     style={{
-                      width: 235,
+                      minWidth: 168,
                     }}
                     value={secondCity}
                     onChange={onSecondCityChange}
@@ -98,7 +98,7 @@ export default () => {
             </ul>
           </div>
         </ConfigProvider>
-      </Layout>
-    </div>
+      </div>
+    </Layout>
   )
 }
