@@ -9,90 +9,67 @@ sidebar_custom_props: {
 	product_docs: [
 		{
 			# 产品代号
-			product_code: 'rs119',
+			product_code: 'rs120',
 			# 产品名
-			product_name: 'ROCK 5B',
+			product_name: 'ROCK 5A',
 			# 产品系列
 			Product_Line: 'ROCK 5 Series',
 			# 产品对应的所有文档
 			docs: [
 				{
-					# 标题文字
 					title: 'Getting started',
-					# 介绍文字
-					info: 'Getting started with ROCK 5B',
-					# docs站文档对应链接(/docs固定)
-					url: 'https://google.com',
-					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
-					down_url: '/down/ROCK_5B/xxxxx.zip'
+					info: 'Getting started with your ROCK 5A',
+					url: 'https://docs.radxa.com/rock5/rock5a/getting_started',
 				},
 				{
-					# 标题文字
-					title: 'Downloads',
-					# 介绍文字
-					info: 'ROCK 5B OS images download',
-					# docs站文档对应链接
-					url: 'https://google.com',
-					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
-					down_url: '/down/ROCK_5B/xxxxx.zip'
+					title: 'Radxa OS',
+					info: 'Using the offcial operating system from Radxa',
+					url: 'https://docs.radxa.com/rock5/radxa-os',
 				},
-				# ...
+				{
+					title: 'Configuration',
+					info: 'Configuring your ROCK 5A setting',
+					url: 'https://docs.radxa.com/rock5/configuration',
+				},
+				{
+					title: 'Accessories',
+					info: 'Using accessories on ROCK 5A',
+					url: 'https://docs.radxa.com/rock5/rock5a/using_accessories',
+				},
+				{
+					title: 'Build Guide',
+					info: 'Build from source code',
+					url: 'https://docs.radxa.com/rock5/lowlevel-dev',
+				},
+				{
+					title: 'Compliance',
+					info: 'Compliance documents for ROCK 5A',
+					url: 'https://docs.radxa.com/rock5/rock5a/using_accessories',
+				},
 			],
 		},
 		{
-			product_name: 'ROCK 5A',
-			product_code: 'rs120',
+			product_name: 'ROCK 5B',
+			product_code: 'rs119',
 			Product_Line: 'ROCK 5 Series',
 			docs: [
 				{
-					# 标题文字
-					title: 'Driver Tools',
-					# 介绍文字
-					info: 'A text about getting started，A text about getting started',
-					# docs站文档对应链接
-					url: 'https://google.com',
-					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
-					down_url: '/down/ROCK_5A/xxxxx.zip'
+					title: 'Coming soon',
+					info: 'Under construction now, why not send a PR',
+					url: 'https://docs.radxa.com/welcome',
 				},
-				{
-					# 标题文字
-					title: 'Hardware',
-					# 介绍文字
-					info: 'A text about getting started，A text about getting started',
-					# docs站文档对应链接
-					url: 'https://google.com',
-					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
-					down_url: '/down/ROCK_5B/xxxxx.zip'
-				},
-				# ...
 			],
 		},
 		{
 			product_name: 'ROCK 3C',
-			product_code: 'rs120',
+			product_code: 'rs112',
 			Product_Line: 'ROCK 3 Series',
 			docs: [
 				{
-					# 标题文字
-					title: 'Driver Tools',
-					# 介绍文字
-					info: 'A text about getting started，A text about getting started',
-					# docs站文档对应链接
-					url: 'https://google.com',
-					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
-					down_url: '/down/ROCK_5A/xxxxx.zip'
+					title: 'Coming soon',
+					info: 'Under construction now, why not send a PR',
+					url: 'https://docs.radxa.com/welcome',
 				},
-				{
-					# 标题文字
-					title: 'Hardware',
-					# 介绍文字
-					info: 'A text about getting started，A text about getting started',
-					# docs站文档对应链接
-					url: 'https://google.com',
-					# doc下载路径(/down固定，ROCK_5B对应放置产品docs文件夹，最后跟文件名)
-					down_url: '/down/ROCK_5B/xxxxx.zip'
-				},
-				# ...
 			],
 		}
 
