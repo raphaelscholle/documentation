@@ -111,3 +111,17 @@ a:hover {
 .ant-select-item-option-active>.ant-select-item-option-content {
   color: #fff;
 }
+
+.theme-doc-sidebar-item-category-level-1>.menu__list {
+  border-left: 2px solid #000;
+}
+
+
+.theme-doc-sidebar-item-category-level-2>.menu__list {
+  border-left: 1px solid red;
+}
+
+
+.theme-doc-sidebar-item-category-level-3>.menu__list {
+  border-left: 1px solid #74Bc1f;
+}

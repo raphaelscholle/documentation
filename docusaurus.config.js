@@ -88,32 +88,38 @@ const config = {
           {
             position: 'right',
             label: 'Home',
-            to: 'http://www.radxa.com/'
+            to: 'http://www.radxa.com/',
+            target: '_self',
           },
           {
             position: 'right',
             label: 'News',
-            to: 'http://www.radxa.com/news'
+            to: 'http://www.radxa.com/news',
+            target: '_self',
           },
           {
             position: 'right',
             label: 'About',
-            to: 'http://www.radxa.com/about'
+            to: 'http://www.radxa.com/about',
+            target: '_self',
           },
           {
             position: 'right',
             label: 'Products',
-            to: 'http://www.radxa.com/product'
+            to: 'http://www.radxa.com/product',
+            target: '_self',
           },
           {
             position: 'right',
             label: 'Support',
-            to: 'http://www.radxa.com/docSearch '
+            to: 'http://www.radxa.com/docSearch ',
+            target: '_self',
           },
           {
             position: 'right',
             label: 'Community',
-            to: 'http://www.radxa.com/association'
+            to: 'http://www.radxa.com/association',
+            target: '_self',
           },
           {
             type: 'localeDropdown',
