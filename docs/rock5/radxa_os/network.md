@@ -41,7 +41,7 @@ The following is the tutorial of ROCK 5A wireless Internet access:
 
 Networks typically use dynamic IP addresses to better manage IP address allocation on the network. Dynamic IP addresses are automatically assigned through DHCP (Dynamic Host Configuration Protocol), which means that each device is assigned a unique IP address when it connects to the network. This approach makes it easier to manage the network and avoids the possibility of IP address conflicts between devices.  
 
-If you want to set a static IP address, you will need to manually assign a fixed IP address for the device.
+If you want to set a static IP address, you will need to manually assign a fixed IP address for the device.  
 
 As shown in the following operations:  
 
