@@ -8,7 +8,9 @@ sidebar_position: 10
 When choosing a monitor, you need to be aware of that different products support different display resolutions, please check the information on your [product](../../productlist) for details. 
 However, if you want to build a [headless platform](../configuration/headless), it'll not be a problem for you.
 
-## Display Solutions Setup
+Take [ROCK 5A](https://radxa.com/product/detailed?product_name=rock_5a) for example, there are two micro HDMI and one mipi display interface. One micro HDMI supports up to 8K resolution as another suports up to 4K. Theoretically, you can use three screens at the same time.  
+
+## Display Setup
 
 This setting is just available when you operating on the monitor. You can change the display setting by following ways.  
 
@@ -51,8 +53,10 @@ HDMI-1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis
 DP-1 disconnected (normal left inverted right x axis y axis)
 ```
 You can check which monitor is connected and the corresponding resolution.  
-#### Common commands
+#### Display Rotation
 
+You can rotate your screen display by modifying the [Display Settings](../configuration/display#system-settings-display-settings)-Orientation.  
+Or you can also achieving by command:
 ```
 Single Screen:
    xrandr -o left     # Rotate 90 degrees to the left
@@ -62,6 +66,25 @@ Single Screen:
    xrandr -s 1024x768 # Set the resolution
    xrandr -s 0        # Set the default resolution, which generally defaults to the highest resolution
    xrandr -rate       # Set refresh rate
+```
+
+#### Multiple Screen Settings
+
+ROCK 5A Supports up to three displays, two micro HDMI interfaces and one mipi interface, the **mipi display** should be enabled on overlay:  
+You can get the supported mipi screen model on [overlays menu](../configuration/devicetree#how-to-enable-an-overlay), 
+before using the mipi screen, you need to enable the corresponding overlay and reboot.  
+
+```
+        [ ] Enable Radxa Display 10HD 
+        [ ] Enable Radxa Display 8HD
+```
+**Note: Different product may support different screen.**  
+
+There is a guide for using [Radxa Display 8HD](../rock5a/accessories_guides/LCD_8_HD). 
+
+In addition to Settings, the following commands enable you to modify in the display settings:
+
+```
 Dual Screen:
    # HDMI-1 --screen 1   DP-1 --screen 2
    xrandr --output HDMI-1 --primary # SetUp Home Screen
