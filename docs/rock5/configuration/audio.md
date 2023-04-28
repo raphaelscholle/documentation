@@ -22,7 +22,7 @@ The volume control and mute operate on the currently selected device.
 ![audio manager](/img/configuration/audio_manager.jpg)
 
 
-### Terminal Config
+### Command Line Config
 
 We provide `alsamixer` for volume management, entering the setting ui by this command:
 ```

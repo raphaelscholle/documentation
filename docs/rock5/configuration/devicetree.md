@@ -9,13 +9,13 @@ sidebar_position: 10
 
 This directory contains Device Tree overlays. Device Tree makes it possible to support many hardware configurations with a single kernel and without the need to explicitly load or blacklisr kernel modules.
 
-On Radxa borad which uses linux5.10 kernel, you can use 'rsetup' to load overlays that you want to enable, rsetup load overlays' dtbo from [Radxa/overlay](https://github.com/radxa/overlays/tree/main/arch/arm64/boot/dts/rockchip/overlays).  
+On Radxa borad which uses linux5.10 kernel, you can use `rsetup` to load overlays that you want to enable, rsetup load overlays' dtbo from [Radxa/overlay](https://github.com/radxa/overlays/tree/main/arch/arm64/boot/dts/rockchip/overlays).  
 
 ## How to enable an overlay
 
 ### usage
 
-run 'rsetup' command as below:
+run `rsetup` command as below:
 ```
 radxa@rock-5a:~$ rsetup
 ```
@@ -29,7 +29,7 @@ Configure Device Tree Overlay
         Reset overlays
         <Ok>             <Cancel>
 ```
-Then, select 'Manage overlays ':
+Then, select `Manage overlays`:
 ```
 Configure Device Tree Overlay  
         Manage overlays  
@@ -65,8 +65,7 @@ Please select overlays:
         [ ] Enable PWM15-M3 
         [ ] Enable PWM6-M0
         [ ] Enable PWM7-M0
-        [ ] Enable Radxa Camera 4K 
-        [ ] Enable Radxa Display 10FHD 
+        [ ] Enable Radxa Camera 4K
         [ ] Enable Radxa Display 10HD 
         [ ] Enable Radxa Display 8HD
         [ ] Enable Raspberry Pi Camera V2
@@ -82,13 +81,16 @@ Please select overlays:
         [ ] Enable spidev on SPI0-M1 over CS0
         [ ] Enable spidev on SPI0-M2 over CS0
         [ ] Enable spidev on SPI4-M2 over CS0
+        [ ] Set OTG port to Host modeq
+        [ ] Set OTG port to Peripheral mode
         <Ok>                   <Cancel>
 ```
+**Note: Supported options are subject to change.**  
 Select the overlays you want to load with the space bar,
 ```
 [*] Enable Radxa Camera 4K
 ```
-Overlay with a "*" indicates that it is enabled. It would work after reboot.
+Overlay with a `*` indicates that it is enabled. It would work after reboot.
 
 ## How to use an overylay written by yourself
 

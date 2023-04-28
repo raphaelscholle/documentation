@@ -169,4 +169,4 @@ radxa@rock-5a:~$ ip a
     inet6 fe80::1031:1ee2:bcee:4855/64 scope link noprefixroute
        valid_lft forever preferred_lft forever
 ```
-If the Host machine connect to ethernet, Device machine can also now.  
+If the Host machine connect to ethernet, Device machine can also connect now.  
