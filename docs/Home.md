@@ -19,32 +19,32 @@ sidebar_custom_props: {
 				{
 					title: 'Getting started',
 					info: 'Getting started with your ROCK 5A',
-					url: 'https://docs.radxa.com/rock5/rock5a/getting_started',
+					url: '/rock5/rock5a/getting_started',
 				},
 				{
 					title: 'Radxa OS',
 					info: 'Using the offcial operating system from Radxa',
-					url: 'https://docs.radxa.com/rock5/radxa-os',
+					url: '/rock5/radxa-os',
 				},
 				{
 					title: 'Configuration',
 					info: 'Configuring your ROCK 5A setting',
-					url: 'https://docs.radxa.com/rock5/configuration',
+					url: '/rock5/configuration',
 				},
 				{
 					title: 'Accessories',
 					info: 'Using accessories on ROCK 5A',
-					url: 'https://docs.radxa.com/rock5/rock5a/using_accessories',
+					url: '/rock5/rock5a/using_accessories',
 				},
 				{
 					title: 'Build Guide',
 					info: 'Build from source code',
-					url: 'https://docs.radxa.com/rock5/lowlevel-dev',
+					url: '/rock5/lowlevel-dev',
 				},
 				{
 					title: 'Compliance',
 					info: 'Compliance documents for ROCK 5A',
-					url: 'https://docs.radxa.com/rock5/rock5a/using_accessories',
+					url: '/rock5/rock5a/using_accessories',
 				},
 			],
 		},
@@ -56,7 +56,7 @@ sidebar_custom_props: {
 				{
 					title: 'Coming soon',
 					info: 'Under construction now, why not send a PR',
-					url: 'https://docs.radxa.com/welcome',
+					url: '/welcome',
 				},
 			],
 		},
@@ -68,7 +68,7 @@ sidebar_custom_props: {
 				{
 					title: 'Coming soon',
 					info: 'Under construction now, why not send a PR',
-					url: 'https://docs.radxa.com/welcome',
+					url: '/welcome',
 				},
 			],
 		}
